@@ -16,6 +16,23 @@ def save_projects(filepath, data):
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
+def parse_stars(val):
+    if isinstance(val, (int, float)):
+        return int(val)
+    if not isinstance(val, str):
+        return 0
+    # Handle "163k+", "over 100k", etc.
+    s = val.lower().replace('+', '').replace('over', '').replace(',', '').strip()
+    if 'k' in s:
+        try:
+            return int(float(s.replace('k', '').strip()) * 1000)
+        except:
+            return 0
+    try:
+        return int(s)
+    except:
+        return 0
+
 def fetch_repo_stats(repo_path):
     url = f"https://api.github.com/repos/{repo_path}"
     response = requests.get(url, headers=HEADERS)
@@ -75,7 +92,7 @@ def generate_markdown(projects_data, base_dir):
             
             if stats:
                 current_stars = stats.get("stargazers_count", 0)
-                last_stars = repo.get("last_stars", current_stars)
+                last_stars = parse_stars(repo.get("last_stars", current_stars))
                 growth = current_stars - last_stars
                 repo["last_stars"] = current_stars
                 repo["last_desc"] = (stats.get("description") or "No description provided").replace("|", "\\|")
@@ -84,7 +101,7 @@ def generate_markdown(projects_data, base_dir):
                 data_status = ""
             else:
                 # FALLBACK: Use last known data if API fails (403 Rate Limit)
-                current_stars = repo.get("last_stars", 0)
+                current_stars = parse_stars(repo.get("last_stars", 0))
                 growth = 0
                 data_status = " <sub>(Vault Mode)</sub>"
                 

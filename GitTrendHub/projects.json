@@ -4,31 +4,32 @@
     "repos": [
       {
         "url_path": "ollama/ollama",
-        "last_stars": 163939
+        "last_stars": "163k+",
+        "last_desc": "Run large language models locally."
       },
       {
         "url_path": "Significant-Gravitas/AutoGPT",
-        "last_stars": 182182
+        "last_stars": "182k+"
       },
       {
         "url_path": "langchain-ai/langchain",
-        "last_stars": 128055
+        "last_stars": "128k+"
       },
       {
         "url_path": "AUTOMATIC1111/stable-diffusion-webui",
-        "last_stars": 161452
+        "last_stars": "161k+"
       },
       {
         "url_path": "huggingface/transformers",
-        "last_stars": 157294
+        "last_stars": "157k+"
       },
       {
         "url_path": "ggerganov/llama.cpp",
-        "last_stars": 96448
+        "last_stars": "96k+"
       },
       {
         "url_path": "open-webui/open-webui",
-        "last_stars": 125579
+        "last_stars": "125k+"
       }
     ]
   },
@@ -37,31 +38,31 @@
     "repos": [
       {
         "url_path": "vercel/next.js",
-        "last_stars": 138090
+        "last_stars": "138k+"
       },
       {
         "url_path": "facebook/react",
-        "last_stars": 243497
+        "last_stars": "243k+"
       },
       {
         "url_path": "tailwindlabs/tailwindcss",
-        "last_stars": 93859
+        "last_stars": "93k+"
       },
       {
         "url_path": "vuejs/core",
-        "last_stars": 53120
+        "last_stars": "53k+"
       },
       {
         "url_path": "sveltejs/svelte",
-        "last_stars": 85944
+        "last_stars": "85k+"
       },
       {
         "url_path": "vitejs/vite",
-        "last_stars": 78530
+        "last_stars": "78k+"
       },
       {
         "url_path": "remix-run/remix",
-        "last_stars": 32434
+        "last_stars": "32k+"
       }
     ]
   },
@@ -70,31 +71,31 @@
     "repos": [
       {
         "url_path": "obsidianmd/obsidian-releases",
-        "last_stars": 15190
+        "last_stars": "15k+"
       },
       {
         "url_path": "raycast/script-commands",
-        "last_stars": 6666
+        "last_stars": "6k+"
       },
       {
         "url_path": "jesseduffield/lazygit",
-        "last_stars": 73378
+        "last_stars": "73k+"
       },
       {
         "url_path": "neovim/neovim",
-        "last_stars": 96899
+        "last_stars": "96k+"
       },
       {
         "url_path": "ohmyzsh/ohmyzsh",
-        "last_stars": 185053
+        "last_stars": "185k+"
       },
       {
         "url_path": "tmux/tmux",
-        "last_stars": 42458
+        "last_stars": "42k+"
       },
       {
         "url_path": "alacritty/alacritty",
-        "last_stars": 62744
+        "last_stars": "62k+"
       }
     ]
   },
@@ -103,19 +104,19 @@
     "repos": [
       {
         "url_path": "kubernetes/kubernetes",
-        "last_stars": 120875
+        "last_stars": "120k+"
       },
       {
         "url_path": "docker/compose",
-        "last_stars": 37095
+        "last_stars": "37k+"
       },
       {
         "url_path": "hashicorp/terraform",
-        "last_stars": 47837
+        "last_stars": "47k+"
       },
       {
         "url_path": "prometheus/prometheus",
-        "last_stars": 62993
+        "last_stars": "62k+"
       }
     ]
   },
@@ -124,15 +125,15 @@
     "repos": [
       {
         "url_path": "swisskyrepo/PayloadsAllTheThings",
-        "last_stars": 75676
+        "last_stars": "75k+"
       },
       {
         "url_path": "offensive-security/exploitdb",
-        "last_stars": 7844
+        "last_stars": "7k+"
       },
       {
         "url_path": "sqlmapproject/sqlmap",
-        "last_stars": 36739
+        "last_stars": "36k+"
       }
     ]
   },
@@ -141,15 +142,15 @@
     "repos": [
       {
         "url_path": "flutter/flutter",
-        "last_stars": 175415
+        "last_stars": "175k+"
       },
       {
         "url_path": "facebook/react-native",
-        "last_stars": 125490
+        "last_stars": "125k+"
       },
       {
         "url_path": "ionic-team/ionic-framework",
-        "last_stars": 52383
+        "last_stars": "52k+"
       }
     ]
   },
@@ -158,15 +159,15 @@
     "repos": [
       {
         "url_path": "redis/redis",
-        "last_stars": 73214
+        "last_stars": "73k+"
       },
       {
         "url_path": "postgres/postgres",
-        "last_stars": 20169
+        "last_stars": "20k+"
       },
       {
         "url_path": "supabase/supabase",
-        "last_stars": 98443
+        "last_stars": "98k+"
       }
     ]
   }
