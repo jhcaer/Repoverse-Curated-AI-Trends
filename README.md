@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="GitTrendHub/image3.jpg" alt="AI TrendHub Banner" width="800">
+  <img src="GitTrendHub/image4.png" alt="AI TrendHub Banner" width="400">
 </div>
 
 <div align="center">
