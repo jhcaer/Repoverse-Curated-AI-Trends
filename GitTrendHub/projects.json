@@ -1,23 +1,39 @@
 {
   "ai": {
-    "title": "\ud83e\udd16 AI Projects",
+    "title": "\ud83e\udd16 AI & Machine Learning",
     "repos": [
       {
         "url_path": "ollama/ollama",
-        "last_stars": 163918
+        "last_stars": 163931
       },
       {
         "url_path": "Significant-Gravitas/AutoGPT",
-        "last_stars": 182180
+        "last_stars": 182182
       },
       {
         "url_path": "langchain-ai/langchain",
-        "last_stars": 128035
+        "last_stars": 128042
+      },
+      {
+        "url_path": "AUTOMATIC1111/stable-diffusion-webui",
+        "last_stars": 161451
+      },
+      {
+        "url_path": "huggingface/transformers",
+        "last_stars": 157291
+      },
+      {
+        "url_path": "ggerganov/llama.cpp",
+        "last_stars": 96439
+      },
+      {
+        "url_path": "open-webui/open-webui",
+        "last_stars": 125567
       }
     ]
   },
   "web": {
-    "title": "\ud83c\udf10 Web Dev",
+    "title": "\ud83c\udf10 Modern Web Development",
     "repos": [
       {
         "url_path": "vercel/next.js",
@@ -25,16 +41,32 @@
       },
       {
         "url_path": "facebook/react",
-        "last_stars": 243483
+        "last_stars": 243492
       },
       {
         "url_path": "tailwindlabs/tailwindcss",
         "last_stars": 93859
+      },
+      {
+        "url_path": "vuejs/core",
+        "last_stars": 53120
+      },
+      {
+        "url_path": "sveltejs/svelte",
+        "last_stars": 85944
+      },
+      {
+        "url_path": "vitejs/vite",
+        "last_stars": 78527
+      },
+      {
+        "url_path": "remix-run/remix",
+        "last_stars": 32433
       }
     ]
   },
   "productivity": {
-    "title": "\ud83d\udee0\ufe0f Productivity Tools",
+    "title": "\u26a1\ufe0f Productivity & Tools",
     "repos": [
       {
         "url_path": "obsidianmd/obsidian-releases",
@@ -46,7 +78,40 @@
       },
       {
         "url_path": "jesseduffield/lazygit",
-        "last_stars": 73362
+        "last_stars": 73371
+      },
+      {
+        "url_path": "neovim/neovim",
+        "last_stars": 96897
+      },
+      {
+        "url_path": "ohmyzsh/ohmyzsh",
+        "last_stars": 185052
+      },
+      {
+        "url_path": "tmux/tmux",
+        "last_stars": 42457
+      },
+      {
+        "url_path": "alacritty/alacritty",
+        "last_stars": 62742
+      }
+    ]
+  },
+  "databases": {
+    "title": "\ud83d\uddc4\ufe0f Databases & Infrastructure",
+    "repos": [
+      {
+        "url_path": "redis/redis",
+        "last_stars": 73213
+      },
+      {
+        "url_path": "postgres/postgres",
+        "last_stars": 20167
+      },
+      {
+        "url_path": "supabase/supabase",
+        "last_stars": 98441
       }
     ]
   }
