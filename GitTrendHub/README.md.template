@@ -14,20 +14,9 @@
 
 <br />
 
-<div align="center">
-  <strong>An automated, expansive snapshot of the hottest repositories in AI, Web Dev, and Productivity.</strong><br>
-  <i>Powered by GitHub Actions, Custom SVG Metrics, and the Open Source Community.</i>
-</div>
-
-<br />
-
-> **💡 How it Works:** This dashboard runs automatically every week. It pulls live metrics and generates **custom local SVG cards** to visualize trends with a premium feel.
-
----
-
 ## 📑 Table of Contents
 
-- [� Weekly Hot Trends](#hot-trends)
+- [🔥 Hot Trends](#hot-trends)
 - [🤖 AI & Machine Learning](#ai)
 - [🌐 Modern Web Development](#web)
 - [⚡️ Productivity & Tools](#productivity)
@@ -79,7 +68,7 @@ Want to improve our custom SVG generator or README layouts?
 <br>
 
 To maintain high quality, we generally look for repos that:
-- Have gained **>100 stars** in the last week.
+- Have gained significant stars recently.
 - Are actively maintained (recent commits).
 - Provide clear value to the developer community.
 </details>

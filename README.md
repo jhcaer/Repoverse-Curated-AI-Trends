@@ -1,14 +1,10 @@
-
+# 📈 GitTrendHub – The Pulse of Open Source
 
 <div align="center">
   <img src="GitTrendHub/image.avif" alt="GitTrendHub Banner" width="800">
 </div>
 
 <div align="center">
-
-  # 📈 GitTrendHub – The Pulse of Open Source
-  </br>
-  
   <img src="https://img.shields.io/github/stars/YOUR_USERNAME/GitTrendHub?style=for-the-badge&color=F9D342&logo=github" alt="Dashboard Stars">
   <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/GitTrendHub?style=for-the-badge&color=292826&logo=git" alt="Last Commit">
   <a href="https://github.com/YOUR_USERNAME/GitTrendHub/actions">
@@ -18,20 +14,9 @@
 
 <br />
 
-<div align="center">
-  <strong>An automated, expansive snapshot of the hottest repositories in AI, Web Dev, and Productivity.</strong><br>
-  <i>Powered by GitHub Actions, Custom SVG Metrics, and the Open Source Community.</i>
-</div>
-
-<br />
-
-> **💡 How it Works:** This dashboard runs automatically every week. It pulls live metrics and generates **custom local SVG cards** to visualize trends with a premium feel.
-
----
-
 ## 📑 Table of Contents
 
-- [� Weekly Hot Trends](#hot-trends)
+- [🔥 Hot Trends](#hot-trends)
 - [🤖 AI & Machine Learning](#ai)
 - [🌐 Modern Web Development](#web)
 - [⚡️ Productivity & Tools](#productivity)
@@ -47,7 +32,7 @@
 
 <h2 id="hot-trends">🔥 Trend of Trends: Hot Movers</h2>
 <div align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22ollama%22%2C%20%22AutoGPT%22%2C%20%22langchain%22%2C%20%22stable-diffusion-webui%22%2C%20%22transformers%22%2C%20%22llama.cpp%22%2C%20%22open-webui%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%227d%20Star%20Growth%20Portfolio%22%2C%20%22backgroundColor%22%3A%20%22rgba%2888%2C%20166%2C%20255%2C%200.6%29%22%2C%20%22borderColor%22%3A%20%22rgb%2888%2C%20166%2C%20255%29%22%2C%20%22borderWidth%22%3A%201%2C%20%22data%22%3A%20%5B0%2C%200%2C%200%2C%200%2C%200%2C%200%2C%200%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22%5Cud83d%5Cudd25%20Weekly%20Hot%20Trends%3A%20Growth%20Leaderboard%22%7D%2C%20%22scales%22%3A%20%7B%22yAxes%22%3A%20%5B%7B%22ticks%22%3A%20%7B%22beginAtZero%22%3A%20true%7D%7D%5D%7D%7D%7D" width="800" alt="Hot Trends Leaderboard">
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22ollama%22%2C%20%22AutoGPT%22%2C%20%22langchain%22%2C%20%22stable-diffusion-webui%22%2C%20%22transformers%22%2C%20%22llama.cpp%22%2C%20%22open-webui%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Growth%20Velocity%22%2C%20%22backgroundColor%22%3A%20%22rgba%2888%2C%20166%2C%20255%2C%200.6%29%22%2C%20%22borderColor%22%3A%20%22rgb%2888%2C%20166%2C%20255%29%22%2C%20%22borderWidth%22%3A%201%2C%20%22data%22%3A%20%5B0%2C%200%2C%200%2C%200%2C%200%2C%200%2C%200%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22%5Cud83d%5Cudd25%20Growth%20Leaderboard%3A%20Hot%20Movers%22%7D%2C%20%22scales%22%3A%20%7B%22yAxes%22%3A%20%5B%7B%22ticks%22%3A%20%7B%22beginAtZero%22%3A%20true%7D%7D%5D%7D%7D%7D" width="800" alt="Hot Trends Leaderboard">
   <p><i>The comparison above shows the real-time velocity of the fastest-growing projects in our curated collection.</i></p>
 </div>
 <br/>
@@ -59,7 +44,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/Significant-Gravitas_AutoGPT.svg" alt="AutoGPT stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -76,7 +61,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/ollama/ollama">ollama</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/ollama_ollama.svg" alt="ollama stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -93,7 +78,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/AUTOMATIC1111_stable-diffusion-webui.svg" alt="stable-diffusion-webui stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -110,7 +95,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/huggingface/transformers">transformers</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/huggingface_transformers.svg" alt="transformers stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -127,7 +112,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/langchain-ai/langchain">langchain</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/langchain-ai_langchain.svg" alt="langchain stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -144,7 +129,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/open-webui/open-webui">open-webui</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/open-webui_open-webui.svg" alt="open-webui stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -161,7 +146,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/ggerganov_llama.cpp.svg" alt="llama.cpp stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -183,7 +168,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/facebook/react">react</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/facebook_react.svg" alt="react stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -200,7 +185,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/vercel/next.js">next.js</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/vercel_next.js.svg" alt="next.js stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -217,7 +202,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/tailwindlabs/tailwindcss">tailwindcss</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/tailwindlabs_tailwindcss.svg" alt="tailwindcss stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -234,7 +219,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/sveltejs/svelte">svelte</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/sveltejs_svelte.svg" alt="svelte stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -251,7 +236,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/vitejs/vite">vite</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/vitejs_vite.svg" alt="vite stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -268,7 +253,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/vuejs/core">core</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/vuejs_core.svg" alt="core stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -285,7 +270,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/remix-run/remix">remix</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/remix-run_remix.svg" alt="remix stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -307,7 +292,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/ohmyzsh_ohmyzsh.svg" alt="ohmyzsh stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -324,7 +309,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/neovim/neovim">neovim</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/neovim_neovim.svg" alt="neovim stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -341,7 +326,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/jesseduffield/lazygit">lazygit</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/jesseduffield_lazygit.svg" alt="lazygit stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -358,7 +343,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/alacritty/alacritty">alacritty</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/alacritty_alacritty.svg" alt="alacritty stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -375,7 +360,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/tmux/tmux">tmux</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/tmux_tmux.svg" alt="tmux stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -392,7 +377,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/obsidianmd/obsidian-releases">obsidian-releases</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/obsidianmd_obsidian-releases.svg" alt="obsidian-releases stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -409,7 +394,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/raycast/script-commands">script-commands</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/raycast_script-commands.svg" alt="script-commands stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -431,7 +416,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/kubernetes/kubernetes">kubernetes</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/kubernetes_kubernetes.svg" alt="kubernetes stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -448,7 +433,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/prometheus/prometheus">prometheus</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/prometheus_prometheus.svg" alt="prometheus stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -465,7 +450,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/hashicorp/terraform">terraform</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/hashicorp_terraform.svg" alt="terraform stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -482,7 +467,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/docker/compose">compose</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/docker_compose.svg" alt="compose stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -504,7 +489,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/swisskyrepo/PayloadsAllTheThings">PayloadsAllTheThings</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/swisskyrepo_PayloadsAllTheThings.svg" alt="PayloadsAllTheThings stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -521,7 +506,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/sqlmapproject/sqlmap">sqlmap</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/sqlmapproject_sqlmap.svg" alt="sqlmap stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -538,7 +523,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/offensive-security/exploitdb">exploitdb</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/offensive-security_exploitdb.svg" alt="exploitdb stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -560,7 +545,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/flutter/flutter">flutter</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/flutter_flutter.svg" alt="flutter stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -577,7 +562,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/facebook/react-native">react-native</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/facebook_react-native.svg" alt="react-native stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -594,7 +579,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/ionic-team/ionic-framework">ionic-framework</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/ionic-team_ionic-framework.svg" alt="ionic-framework stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -616,7 +601,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/supabase/supabase">supabase</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/supabase_supabase.svg" alt="supabase stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -633,7 +618,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/redis/redis">redis</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/redis_redis.svg" alt="redis stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -650,7 +635,7 @@
   <tr>
     <td width="60%" style="vertical-align: top;">
       <h3><a href="https://github.com/postgres/postgres">postgres</a> <sub>(Vault Mode)</sub></h3>
-      <p>Details loading...</p>
+      <p>Description not available</p>
       <img src="GitTrendHub/assets/postgres_postgres.svg" alt="postgres stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -703,7 +688,7 @@ Want to improve our custom SVG generator or README layouts?
 <br>
 
 To maintain high quality, we generally look for repos that:
-- Have gained **>100 stars** in the last week.
+- Have gained significant stars recently.
 - Are actively maintained (recent commits).
 - Provide clear value to the developer community.
 </details>
@@ -717,5 +702,5 @@ To maintain high quality, we generally look for repos that:
 Data is retrieved using the GitHub REST API and GitHub Actions. Historical data charts are seamlessly generated via [Star-History](https://star-history.com/).
 
 <div align="right">
-  <i>✨ Last Generated: March 03, 2026 - 15:32 UTC</i>
+  <i>✨ Last Generated: March 03, 2026 - 15:36 UTC</i>
 </div>

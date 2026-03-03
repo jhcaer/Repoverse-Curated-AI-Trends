@@ -46,7 +46,7 @@ def generate_svg_card(e):
   </g>
   
   <g transform="translate(20, 115)">
-    <text x="0" y="4" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="{growth_color}">Weekly Growth: {growth_icon} {abs(e['growth']):,}</text>
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="{growth_color}">Trending: {growth_icon} {abs(e['growth']):,}</text>
   </g>
   
   <rect x="300" y="20" width="80" height="25" rx="5" fill="#21262d" stroke="#30363d"/>
@@ -92,7 +92,7 @@ def generate_markdown(projects_data, base_dir):
                 "repo_path": repo["url_path"],
                 "name": repo["url_path"].split("/")[-1],
                 "html_url": f"https://github.com/{repo['url_path']}",
-                "description": repo.get("last_desc", "Details loading..."),
+                "description": repo.get("last_desc", "Description not available"),
                 "language": repo.get("last_lang", "N/A"),
                 "forks": repo.get("last_forks", 0),
                 "stars": current_stars,
@@ -152,7 +152,7 @@ def generate_markdown(projects_data, base_dir):
         "data": {
             "labels": chart_labels,
             "datasets": [{
-                "label": "7d Star Growth Portfolio",
+                "label": "Growth Velocity",
                 "backgroundColor": "rgba(88, 166, 255, 0.6)",
                 "borderColor": "rgb(88, 166, 255)",
                 "borderWidth": 1,
@@ -160,7 +160,7 @@ def generate_markdown(projects_data, base_dir):
             }]
         },
         "options": {
-            "title": {"display": True, "text": "🔥 Weekly Hot Trends: Growth Leaderboard"},
+            "title": {"display": True, "text": "🔥 Growth Leaderboard: Hot Movers"},
             "scales": {"yAxes": [{"ticks": {"beginAtZero": True}}]}
         }
     }
