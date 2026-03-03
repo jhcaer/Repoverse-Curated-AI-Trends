@@ -1,7 +1,6 @@
-# 🤖 AI TrendHub – The Pulse of Artificial Intelligence
 
 <div align="center">
-  <img src="GitTrendHub/image.avif" alt="AI TrendHub Banner" width="800">
+  <img src="GitTrendHub/image2.avif" alt="AI TrendHub Banner" width="800">
 </div>
 
 <div align="center">
@@ -40,8 +39,8 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/ollama/ollama">ollama</a> <sub>(Vault Mode)</sub></h3>
-      <p>Get up and running with large language models locally</p>
+      <h3><a href="https://github.com/ollama/ollama">ollama</a></h3>
+      <p>Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</p>
       <img src="GitTrendHub/assets/ollama_ollama.svg" alt="ollama stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -57,8 +56,25 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> <sub>(Vault Mode)</sub></h3>
-      <p>Port of Facebook's LLaMA model in C/C++ for efficient local inference</p>
+      <h3><a href="https://github.com/deepseek-ai/DeepSeek-V3">DeepSeek-V3</a></h3>
+      <p>No description provided</p>
+      <img src="GitTrendHub/assets/deepseek-ai_DeepSeek-V3.svg" alt="DeepSeek-V3 stats" width="400">
+    </td>
+    <td width="40%" style="vertical-align: top; text-align: center;">
+      <a href="https://star-history.com/#deepseek-ai/DeepSeek-V3&Date">
+        <img src="https://api.star-history.com/svg?repos=deepseek-ai/DeepSeek-V3&type=Date" alt="Star History" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+<p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
+
+
+<table width="100%">
+  <tr>
+    <td width="60%" style="vertical-align: top;">
+      <h3><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a></h3>
+      <p>LLM inference in C/C++</p>
       <img src="GitTrendHub/assets/ggerganov_llama.cpp.svg" alt="llama.cpp stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -74,30 +90,13 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/vllm-project/vllm">vllm</a> <sub>(Vault Mode)</sub></h3>
+      <h3><a href="https://github.com/vllm-project/vllm">vllm</a></h3>
       <p>A high-throughput and memory-efficient inference and serving engine for LLMs</p>
       <img src="GitTrendHub/assets/vllm-project_vllm.svg" alt="vllm stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
       <a href="https://star-history.com/#vllm-project/vllm&Date">
         <img src="https://api.star-history.com/svg?repos=vllm-project/vllm&type=Date" alt="Star History" width="100%">
-      </a>
-    </td>
-  </tr>
-</table>
-<p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
-
-
-<table width="100%">
-  <tr>
-    <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/go-skynet/LocalAI">LocalAI</a> <sub>(Vault Mode)</sub></h3>
-      <p>Self-hosted, community-driven, local OpenAI-compatible API</p>
-      <img src="GitTrendHub/assets/go-skynet_LocalAI.svg" alt="LocalAI stats" width="400">
-    </td>
-    <td width="40%" style="vertical-align: top; text-align: center;">
-      <a href="https://star-history.com/#go-skynet/LocalAI&Date">
-        <img src="https://api.star-history.com/svg?repos=go-skynet/LocalAI&type=Date" alt="Star History" width="100%">
       </a>
     </td>
   </tr>
@@ -113,8 +112,25 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a> <sub>(Vault Mode)</sub></h3>
-      <p>An open-source interface for building and orchestrating autonomous AI agents</p>
+      <h3><a href="https://github.com/openclaw/openclaw">openclaw</a></h3>
+      <p>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </p>
+      <img src="GitTrendHub/assets/openclaw_openclaw.svg" alt="openclaw stats" width="400">
+    </td>
+    <td width="40%" style="vertical-align: top; text-align: center;">
+      <a href="https://star-history.com/#openclaw/openclaw&Date">
+        <img src="https://api.star-history.com/svg?repos=openclaw/openclaw&type=Date" alt="Star History" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+<p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
+
+
+<table width="100%">
+  <tr>
+    <td width="60%" style="vertical-align: top;">
+      <h3><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a></h3>
+      <p>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so ...</p>
       <img src="GitTrendHub/assets/Significant-Gravitas_AutoGPT.svg" alt="AutoGPT stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -130,47 +146,30 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/joaomdmoura/crewAI">crewAI</a> <sub>(Vault Mode)</sub></h3>
-      <p>Framework for orchestrating role-playing, autonomous AI agents</p>
+      <h3><a href="https://github.com/browser-use/browser-use">browser-use</a></h3>
+      <p>🌐 Make websites accessible for AI agents. Automate tasks online with ease.</p>
+      <img src="GitTrendHub/assets/browser-use_browser-use.svg" alt="browser-use stats" width="400">
+    </td>
+    <td width="40%" style="vertical-align: top; text-align: center;">
+      <a href="https://star-history.com/#browser-use/browser-use&Date">
+        <img src="https://api.star-history.com/svg?repos=browser-use/browser-use&type=Date" alt="Star History" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+<p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
+
+
+<table width="100%">
+  <tr>
+    <td width="60%" style="vertical-align: top;">
+      <h3><a href="https://github.com/joaomdmoura/crewAI">crewAI</a></h3>
+      <p>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empow...</p>
       <img src="GitTrendHub/assets/joaomdmoura_crewAI.svg" alt="crewAI stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
       <a href="https://star-history.com/#joaomdmoura/crewAI&Date">
         <img src="https://api.star-history.com/svg?repos=joaomdmoura/crewAI&type=Date" alt="Star History" width="100%">
-      </a>
-    </td>
-  </tr>
-</table>
-<p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
-
-
-<table width="100%">
-  <tr>
-    <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/langchain-ai/langgraph">langgraph</a> <sub>(Vault Mode)</sub></h3>
-      <p>Build stateful, multi-actor applications with LLMs</p>
-      <img src="GitTrendHub/assets/langchain-ai_langgraph.svg" alt="langgraph stats" width="400">
-    </td>
-    <td width="40%" style="vertical-align: top; text-align: center;">
-      <a href="https://star-history.com/#langchain-ai/langgraph&Date">
-        <img src="https://api.star-history.com/svg?repos=langchain-ai/langgraph&type=Date" alt="Star History" width="100%">
-      </a>
-    </td>
-  </tr>
-</table>
-<p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
-
-
-<table width="100%">
-  <tr>
-    <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/pydantic/pydantic-ai">pydantic-ai</a> <sub>(Vault Mode)</sub></h3>
-      <p>Agent framework from the makers of Pydantic</p>
-      <img src="GitTrendHub/assets/pydantic_pydantic-ai.svg" alt="pydantic-ai stats" width="400">
-    </td>
-    <td width="40%" style="vertical-align: top; text-align: center;">
-      <a href="https://star-history.com/#pydantic/pydantic-ai&Date">
-        <img src="https://api.star-history.com/svg?repos=pydantic/pydantic-ai&type=Date" alt="Star History" width="100%">
       </a>
     </td>
   </tr>
@@ -186,8 +185,25 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/OpenInterpreter/open-interpreter">open-interpreter</a> <sub>(Vault Mode)</sub></h3>
-      <p>A natural language interface for your computer</p>
+      <h3><a href="https://github.com/anthropics/claude-code">claude-code</a></h3>
+      <p>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast...</p>
+      <img src="GitTrendHub/assets/anthropics_claude-code.svg" alt="claude-code stats" width="400">
+    </td>
+    <td width="40%" style="vertical-align: top; text-align: center;">
+      <a href="https://star-history.com/#anthropics/claude-code&Date">
+        <img src="https://api.star-history.com/svg?repos=anthropics/claude-code&type=Date" alt="Star History" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+<p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
+
+
+<table width="100%">
+  <tr>
+    <td width="60%" style="vertical-align: top;">
+      <h3><a href="https://github.com/OpenInterpreter/open-interpreter">open-interpreter</a></h3>
+      <p>A natural language interface for computers</p>
       <img src="GitTrendHub/assets/OpenInterpreter_open-interpreter.svg" alt="open-interpreter stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -203,30 +219,13 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/paul-gauthier/aider">aider</a> <sub>(Vault Mode)</sub></h3>
+      <h3><a href="https://github.com/paul-gauthier/aider">aider</a></h3>
       <p>aider is AI pair programming in your terminal</p>
       <img src="GitTrendHub/assets/paul-gauthier_aider.svg" alt="aider stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
       <a href="https://star-history.com/#paul-gauthier/aider&Date">
         <img src="https://api.star-history.com/svg?repos=paul-gauthier/aider&type=Date" alt="Star History" width="100%">
-      </a>
-    </td>
-  </tr>
-</table>
-<p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
-
-
-<table width="100%">
-  <tr>
-    <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/Py-GPT/PyGPT">PyGPT</a> <sub>(Vault Mode)</sub></h3>
-      <p>AI Desktop Assistant for Windows, Linux and Mac</p>
-      <img src="GitTrendHub/assets/Py-GPT_PyGPT.svg" alt="PyGPT stats" width="400">
-    </td>
-    <td width="40%" style="vertical-align: top; text-align: center;">
-      <a href="https://star-history.com/#Py-GPT/PyGPT&Date">
-        <img src="https://api.star-history.com/svg?repos=Py-GPT/PyGPT&type=Date" alt="Star History" width="100%">
       </a>
     </td>
   </tr>
@@ -242,8 +241,8 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a> <sub>(Vault Mode)</sub></h3>
-      <p>Comprehensive browser interface for Stable Diffusion models</p>
+      <h3><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a></h3>
+      <p>Stable Diffusion web UI</p>
       <img src="GitTrendHub/assets/AUTOMATIC1111_stable-diffusion-webui.svg" alt="stable-diffusion-webui stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -259,13 +258,13 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/lllyasviel/Fooocus">Fooocus</a> <sub>(Vault Mode)</sub></h3>
-      <p>Focus on prompting and generating images with SDXL</p>
-      <img src="GitTrendHub/assets/lllyasviel_Fooocus.svg" alt="Fooocus stats" width="400">
+      <h3><a href="https://github.com/comfyanonymous/ComfyUI">ComfyUI</a></h3>
+      <p>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</p>
+      <img src="GitTrendHub/assets/comfyanonymous_ComfyUI.svg" alt="ComfyUI stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
-      <a href="https://star-history.com/#lllyasviel/Fooocus&Date">
-        <img src="https://api.star-history.com/svg?repos=lllyasviel/Fooocus&type=Date" alt="Star History" width="100%">
+      <a href="https://star-history.com/#comfyanonymous/ComfyUI&Date">
+        <img src="https://api.star-history.com/svg?repos=comfyanonymous/ComfyUI&type=Date" alt="Star History" width="100%">
       </a>
     </td>
   </tr>
@@ -276,13 +275,13 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/comfyanonymous/ComfyUI">ComfyUI</a> <sub>(Vault Mode)</sub></h3>
-      <p>The most powerful and modular stable diffusion GUI and backend</p>
-      <img src="GitTrendHub/assets/comfyanonymous_ComfyUI.svg" alt="ComfyUI stats" width="400">
+      <h3><a href="https://github.com/black-forest-labs/flux">flux</a></h3>
+      <p>Official inference repo for FLUX.1 models</p>
+      <img src="GitTrendHub/assets/black-forest-labs_flux.svg" alt="flux stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
-      <a href="https://star-history.com/#comfyanonymous/ComfyUI&Date">
-        <img src="https://api.star-history.com/svg?repos=comfyanonymous/ComfyUI&type=Date" alt="Star History" width="100%">
+      <a href="https://star-history.com/#black-forest-labs/flux&Date">
+        <img src="https://api.star-history.com/svg?repos=black-forest-labs/flux&type=Date" alt="Star History" width="100%">
       </a>
     </td>
   </tr>
@@ -298,8 +297,8 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/huggingface/transformers">transformers</a> <sub>(Vault Mode)</sub></h3>
-      <p>State-of-the-art machine learning for PyTorch, TensorFlow, and JAX</p>
+      <h3><a href="https://github.com/huggingface/transformers">transformers</a></h3>
+      <p>🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, a...</p>
       <img src="GitTrendHub/assets/huggingface_transformers.svg" alt="transformers stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -315,8 +314,8 @@
 <table width="100%">
   <tr>
     <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/langchain-ai/langchain">langchain</a> <sub>(Vault Mode)</sub></h3>
-      <p>Framework for developing applications powered by language models with composable tools</p>
+      <h3><a href="https://github.com/langchain-ai/langchain">langchain</a></h3>
+      <p>The agent engineering platform</p>
       <img src="GitTrendHub/assets/langchain-ai_langchain.svg" alt="langchain stats" width="400">
     </td>
     <td width="40%" style="vertical-align: top; text-align: center;">
@@ -329,57 +328,57 @@
 <p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
 
 
+---
+
+
+---
+
+<h2 id="how-to-contribute">🤝 Join the AI Hub Community</h2>
+
+**GitTrendHub** is more than just a dashboard; it's a movement to track the AI revolution as it happens. We believe the best insights come from the community! 🚀
+
+### Why Contribute?
+- **Share the Pulse:** Help others discover the viral AI tools you've found on Reddit/X.
+- **Build the Tooling:** Improve the dashboard's design and data engine for everyone.
+- **Stay Ahead:** Be the first to document the next "game-changing" AI repository.
+
+<br>
+
 <table width="100%">
   <tr>
-    <td width="60%" style="vertical-align: top;">
-      <h3><a href="https://github.com/run-llama/llama_index">llama_index</a> <sub>(Vault Mode)</sub></h3>
-      <p>Data framework for your LLM applications</p>
-      <img src="GitTrendHub/assets/run-llama_llama_index.svg" alt="llama_index stats" width="400">
+    <td width="50%" style="vertical-align: top;">
+      <h4>🔥 Recommend a Viral Repo</h4>
+      <p>Found something blowing up? Add it to the list!</p>
+      <details>
+      <summary><b>View Steps (Simple PR)</b></summary>
+      <br>
+      1. Open <code>GitTrendHub/projects.json</code>.<br>
+      2. Choose a sub-category.<br>
+      3. Add the repo: <code>{ "url_path": "OWNER/REPO", "last_stars": "Hot" }</code>.<br>
+      4. Submit a PR titled <code>Recommend: OWNER/REPO</code>.
+      </details>
     </td>
-    <td width="40%" style="vertical-align: top; text-align: center;">
-      <a href="https://star-history.com/#run-llama/llama_index&Date">
-        <img src="https://api.star-history.com/svg?repos=run-llama/llama_index&type=Date" alt="Star History" width="100%">
-      </a>
+    <td width="50%" style="vertical-align: top;">
+      <h4>🛠️ Improve the Platform</h4>
+      <p>Love Python or Design? Help us code the future.</p>
+      <details>
+      <summary><b>View Steps (Dev Focus)</b></summary>
+      <br>
+      1. Fork & Clone this repo.<br>
+      2. Tweak <code>update_readme.py</code> or styles.<br>
+      3. Run <code>python3 GitTrendHub/update_readme.py</code> to test.<br>
+      4. Submit your Pull Request!
+      </details>
     </td>
   </tr>
 </table>
-<p align="right"><a href="#table-of-contents">🔼 Back to Top</a></p>
 
+<br>
 
 ---
 
-
----
-
-<h2 id="how-to-contribute">🤝 Join the AI Community & Contribute</h2>
-
-We are looking for AI enthusiasts to help keep this dashboard the #1 source for AI trends! 🚀
-
-<details>
-<summary><b>🔥 How to Recommend a Trending AI Repo? (Click to Expand)</b></summary>
-<br>
-
-If you've found an AI repository that is blowing up, we want to know!
-1. **Open `GitTrendHub/projects.json`**.
-2. Find the relevant sub-category.
-3. Add the repository in this format:
-   ```json
-   { "url_path": "OWNER/REPO", "last_stars": "0k+" }
-   ```
-4. Submit a **Pull Request** titled `AI-Recommend: OWNER/REPO`.
-</details>
-
-<details>
-<summary><b>🛠️ How to Contribute to the Tooling? (Click to Expand)</b></summary>
-<br>
-
-Want to improve our custom SVG generator or README layouts?
-1. **Fork** this repository.
-2. Clone it locally.
-3. Modify `GitTrendHub/update_readme.py` or the template.
-4. Run locally to verify: `python3 GitTrendHub/update_readme.py`
-5. Submit a **Pull Request**!
-</details>
+### ❤️ Show Your Support
+If you find this tracker useful, please **Give us a Star ⭐** and share it with your AI circles! The more people join, the better our "Trend of Trends" becomes.
 
 <br />
 
@@ -390,5 +389,5 @@ Want to improve our custom SVG generator or README layouts?
 Data is retrieved using the GitHub REST API and GitHub Actions.
 
 <div align="right">
-  <i>✨ Last Generated: March 03, 2026 - 16:06 UTC</i>
+  <i>✨ Last Generated: March 03, 2026 - 16:16 UTC</i>
 </div>
