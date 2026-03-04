@@ -31,6 +31,7 @@
 - 8. [📝 Data Summary](#data-summary) — Data source and last generated timestamp
 
 <h2 id='llm_engines'>🤖 LLM Engines & Platforms</h2>
+<p><img src="GitTrendHub/assets/section_bar_llm_engines.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -38,17 +39,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_llm_engines.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🤖 LLM Engines & Platforms</small>
       <h3><a href="https://github.com/ollama/ollama">ollama</a> <sub>(Vault Mode)</sub></h3>
-      <p>Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</p>
       <img src="GitTrendHub/assets/ollama_ollama.svg" alt="ollama stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#ollama/ollama&Date">
         <img src="https://api.star-history.com/svg?repos=ollama/ollama&type=Date" alt="Star History" width="100%">
       </a>
+      <p>Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</p>
     </td>
   </tr>
 </table>
@@ -60,17 +59,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_llm_engines.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🤖 LLM Engines & Platforms</small>
       <h3><a href="https://github.com/deepseek-ai/DeepSeek-V3">DeepSeek-V3</a> <sub>(Vault Mode)</sub></h3>
-      <p>No description provided</p>
       <img src="GitTrendHub/assets/deepseek-ai_DeepSeek-V3.svg" alt="DeepSeek-V3 stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#deepseek-ai/DeepSeek-V3&Date">
         <img src="https://api.star-history.com/svg?repos=deepseek-ai/DeepSeek-V3&type=Date" alt="Star History" width="100%">
       </a>
+      <p>No description provided</p>
     </td>
   </tr>
 </table>
@@ -82,17 +79,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_llm_engines.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🤖 LLM Engines & Platforms</small>
       <h3><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> <sub>(Vault Mode)</sub></h3>
-      <p>LLM inference in C/C++</p>
       <img src="GitTrendHub/assets/ggerganov_llama.cpp.svg" alt="llama.cpp stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#ggerganov/llama.cpp&Date">
         <img src="https://api.star-history.com/svg?repos=ggerganov/llama.cpp&type=Date" alt="Star History" width="100%">
       </a>
+      <p>LLM inference in C/C++</p>
     </td>
   </tr>
 </table>
@@ -104,17 +99,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_llm_engines.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🤖 LLM Engines & Platforms</small>
       <h3><a href="https://github.com/vllm-project/vllm">vllm</a> <sub>(Vault Mode)</sub></h3>
-      <p>A high-throughput and memory-efficient inference and serving engine for LLMs</p>
       <img src="GitTrendHub/assets/vllm-project_vllm.svg" alt="vllm stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#vllm-project/vllm&Date">
         <img src="https://api.star-history.com/svg?repos=vllm-project/vllm&type=Date" alt="Star History" width="100%">
       </a>
+      <p>A high-throughput and memory-efficient inference and serving engine for LLMs</p>
     </td>
   </tr>
 </table>
@@ -124,6 +117,7 @@
 ---
 
 <h2 id='agents'>🛠️ AI Agents & Orchestration</h2>
+<p><img src="GitTrendHub/assets/section_bar_agents.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -131,17 +125,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_agents.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🛠️ AI Agents & Orchestration</small>
       <h3><a href="https://github.com/openclaw/openclaw">openclaw</a> <sub>(Vault Mode)</sub></h3>
-      <p>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </p>
       <img src="GitTrendHub/assets/openclaw_openclaw.svg" alt="openclaw stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#openclaw/openclaw&Date">
         <img src="https://api.star-history.com/svg?repos=openclaw/openclaw&type=Date" alt="Star History" width="100%">
       </a>
+      <p>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </p>
     </td>
   </tr>
 </table>
@@ -153,17 +145,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_agents.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🛠️ AI Agents & Orchestration</small>
       <h3><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a> <sub>(Vault Mode)</sub></h3>
-      <p>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so ...</p>
       <img src="GitTrendHub/assets/Significant-Gravitas_AutoGPT.svg" alt="AutoGPT stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#Significant-Gravitas/AutoGPT&Date">
         <img src="https://api.star-history.com/svg?repos=Significant-Gravitas/AutoGPT&type=Date" alt="Star History" width="100%">
       </a>
+      <p>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so ...</p>
     </td>
   </tr>
 </table>
@@ -175,17 +165,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_agents.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🛠️ AI Agents & Orchestration</small>
       <h3><a href="https://github.com/browser-use/browser-use">browser-use</a> <sub>(Vault Mode)</sub></h3>
-      <p>🌐 Make websites accessible for AI agents. Automate tasks online with ease.</p>
       <img src="GitTrendHub/assets/browser-use_browser-use.svg" alt="browser-use stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#browser-use/browser-use&Date">
         <img src="https://api.star-history.com/svg?repos=browser-use/browser-use&type=Date" alt="Star History" width="100%">
       </a>
+      <p>🌐 Make websites accessible for AI agents. Automate tasks online with ease.</p>
     </td>
   </tr>
 </table>
@@ -197,17 +185,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_agents.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🛠️ AI Agents & Orchestration</small>
       <h3><a href="https://github.com/joaomdmoura/crewAI">crewAI</a> <sub>(Vault Mode)</sub></h3>
-      <p>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empow...</p>
       <img src="GitTrendHub/assets/joaomdmoura_crewAI.svg" alt="crewAI stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#joaomdmoura/crewAI&Date">
         <img src="https://api.star-history.com/svg?repos=joaomdmoura/crewAI&type=Date" alt="Star History" width="100%">
       </a>
+      <p>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empow...</p>
     </td>
   </tr>
 </table>
@@ -217,6 +203,7 @@
 ---
 
 <h2 id='cli_tools'>💻 AI-Powered CLI & DevTools</h2>
+<p><img src="GitTrendHub/assets/section_bar_cli_tools.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -224,17 +211,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_cli_tools.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 💻 AI-Powered CLI & DevTools</small>
       <h3><a href="https://github.com/anthropics/claude-code">claude-code</a> <sub>(Vault Mode)</sub></h3>
-      <p>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast...</p>
       <img src="GitTrendHub/assets/anthropics_claude-code.svg" alt="claude-code stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#anthropics/claude-code&Date">
         <img src="https://api.star-history.com/svg?repos=anthropics/claude-code&type=Date" alt="Star History" width="100%">
       </a>
+      <p>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast...</p>
     </td>
   </tr>
 </table>
@@ -246,17 +231,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_cli_tools.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 💻 AI-Powered CLI & DevTools</small>
       <h3><a href="https://github.com/OpenInterpreter/open-interpreter">open-interpreter</a> <sub>(Vault Mode)</sub></h3>
-      <p>A natural language interface for computers</p>
       <img src="GitTrendHub/assets/OpenInterpreter_open-interpreter.svg" alt="open-interpreter stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#OpenInterpreter/open-interpreter&Date">
         <img src="https://api.star-history.com/svg?repos=OpenInterpreter/open-interpreter&type=Date" alt="Star History" width="100%">
       </a>
+      <p>A natural language interface for computers</p>
     </td>
   </tr>
 </table>
@@ -268,17 +251,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_cli_tools.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 💻 AI-Powered CLI & DevTools</small>
       <h3><a href="https://github.com/paul-gauthier/aider">aider</a> <sub>(Vault Mode)</sub></h3>
-      <p>aider is AI pair programming in your terminal</p>
       <img src="GitTrendHub/assets/paul-gauthier_aider.svg" alt="aider stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#paul-gauthier/aider&Date">
         <img src="https://api.star-history.com/svg?repos=paul-gauthier/aider&type=Date" alt="Star History" width="100%">
       </a>
+      <p>aider is AI pair programming in your terminal</p>
     </td>
   </tr>
 </table>
@@ -288,6 +269,7 @@
 ---
 
 <h2 id='art_vision'>🎨 Generative Art & Vision</h2>
+<p><img src="GitTrendHub/assets/section_bar_art_vision.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -295,17 +277,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_art_vision.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🎨 Generative Art & Vision</small>
       <h3><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a> <sub>(Vault Mode)</sub></h3>
-      <p>Stable Diffusion web UI</p>
       <img src="GitTrendHub/assets/AUTOMATIC1111_stable-diffusion-webui.svg" alt="stable-diffusion-webui stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#AUTOMATIC1111/stable-diffusion-webui&Date">
         <img src="https://api.star-history.com/svg?repos=AUTOMATIC1111/stable-diffusion-webui&type=Date" alt="Star History" width="100%">
       </a>
+      <p>Stable Diffusion web UI</p>
     </td>
   </tr>
 </table>
@@ -317,17 +297,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_art_vision.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🎨 Generative Art & Vision</small>
       <h3><a href="https://github.com/comfyanonymous/ComfyUI">ComfyUI</a> <sub>(Vault Mode)</sub></h3>
-      <p>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</p>
       <img src="GitTrendHub/assets/comfyanonymous_ComfyUI.svg" alt="ComfyUI stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#comfyanonymous/ComfyUI&Date">
         <img src="https://api.star-history.com/svg?repos=comfyanonymous/ComfyUI&type=Date" alt="Star History" width="100%">
       </a>
+      <p>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</p>
     </td>
   </tr>
 </table>
@@ -339,17 +317,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_art_vision.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🎨 Generative Art & Vision</small>
       <h3><a href="https://github.com/black-forest-labs/flux">flux</a> <sub>(Vault Mode)</sub></h3>
-      <p>Official inference repo for FLUX.1 models</p>
       <img src="GitTrendHub/assets/black-forest-labs_flux.svg" alt="flux stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#black-forest-labs/flux&Date">
         <img src="https://api.star-history.com/svg?repos=black-forest-labs/flux&type=Date" alt="Star History" width="100%">
       </a>
+      <p>Official inference repo for FLUX.1 models</p>
     </td>
   </tr>
 </table>
@@ -359,6 +335,7 @@
 ---
 
 <h2 id='frameworks'>🧠 Research & Core Frameworks</h2>
+<p><img src="GitTrendHub/assets/section_bar_frameworks.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -366,17 +343,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_frameworks.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🧠 Research & Core Frameworks</small>
       <h3><a href="https://github.com/huggingface/transformers">transformers</a> <sub>(Vault Mode)</sub></h3>
-      <p>🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, a...</p>
       <img src="GitTrendHub/assets/huggingface_transformers.svg" alt="transformers stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#huggingface/transformers&Date">
         <img src="https://api.star-history.com/svg?repos=huggingface/transformers&type=Date" alt="Star History" width="100%">
       </a>
+      <p>🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, a...</p>
     </td>
   </tr>
 </table>
@@ -388,17 +363,15 @@
     <td valign="top">
       <img src="GitTrendHub/assets/section_bar_frameworks.png" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> 🧠 Research & Core Frameworks</small>
       <h3><a href="https://github.com/langchain-ai/langchain">langchain</a> <sub>(Vault Mode)</sub></h3>
-      <p>The agent engineering platform</p>
       <img src="GitTrendHub/assets/langchain-ai_langchain.svg" alt="langchain stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#langchain-ai/langchain&Date">
         <img src="https://api.star-history.com/svg?repos=langchain-ai/langchain&type=Date" alt="Star History" width="100%">
       </a>
+      <p>The agent engineering platform</p>
     </td>
   </tr>
 </table>
@@ -453,5 +426,5 @@ Stay ahead of the curve with these curated AI resources.
 Data is retrieved using the GitHub REST API and GitHub Actions.
 
 <div align="right">
-  <i>✨ Last Generated: March 04, 2026 - 13:24 UTC</i>
+  <i>✨ Last Generated: March 04, 2026 - 13:27 UTC</i>
 </div>

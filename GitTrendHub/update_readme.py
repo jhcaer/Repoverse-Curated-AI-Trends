@@ -172,6 +172,7 @@ def generate_markdown(projects_data, base_dir):
         bar_asset = f"assets/{bar_filename}"
         sec_lines = []
         sec_lines.append(f"<h2 id='{category_key}'>{title}</h2>")
+        sec_lines.append(f"<p><img src=\"{bar_asset}\" alt=\"\" width=\"24\" height=\"6\"> Section color</p>")
         sec_lines.append("")
         search_index["sections"].append({
             "id": category_key,
@@ -246,17 +247,15 @@ def generate_markdown(projects_data, base_dir):
     <td valign="top">
       <img src="{bar_asset}" alt="">
     </td>
-    <td width="10"></td>
     <td width="60%" valign="top">
-      <small><strong>Section:</strong> {badge_text}</small>
       <h3><a href="{e['html_url']}">{e['name']}</a>{e['status_tag']}</h3>
-      <p>{desc_limited}</p>
       <img src="{e['svg_asset']}" alt="{e['name']} stats" width="400">
     </td>
     <td width="40%" valign="top" align="center">
       <a href="https://star-history.com/#{e['repo_path']}&Date">
         <img src="https://api.star-history.com/svg?repos={e['repo_path']}&type=Date" alt="Star History" width="100%">
       </a>
+      <p>{desc_limited}</p>
     </td>
   </tr>
 </table>
