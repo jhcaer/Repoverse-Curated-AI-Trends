@@ -33,10 +33,13 @@
 <h2 id='llm_engines'>🤖 LLM Engines & Platforms</h2>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #ff6b6b; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/ollama/ollama">ollama</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #ff6b6b; border: 1px solid #ff6b6b; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🤖 LLM Engines & Platforms
+      </div>
+      <h3><a href="https://github.com/ollama/ollama">ollama</a> <sub>(Vault Mode)</sub></h3>
       <p>Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</p>
       <img src="GitTrendHub/assets/ollama_ollama.svg" alt="ollama stats" width="400">
     </td>
@@ -50,10 +53,13 @@
 <p align="right"><a href="#llm_engines">🔼 Back to Section (🤖 LLM Engines & Platforms)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #ff6b6b; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/deepseek-ai/DeepSeek-V3">DeepSeek-V3</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #ff6b6b; border: 1px solid #ff6b6b; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🤖 LLM Engines & Platforms
+      </div>
+      <h3><a href="https://github.com/deepseek-ai/DeepSeek-V3">DeepSeek-V3</a> <sub>(Vault Mode)</sub></h3>
       <p>No description provided</p>
       <img src="GitTrendHub/assets/deepseek-ai_DeepSeek-V3.svg" alt="DeepSeek-V3 stats" width="400">
     </td>
@@ -67,10 +73,13 @@
 <p align="right"><a href="#llm_engines">🔼 Back to Section (🤖 LLM Engines & Platforms)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #ff6b6b; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #ff6b6b; border: 1px solid #ff6b6b; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🤖 LLM Engines & Platforms
+      </div>
+      <h3><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> <sub>(Vault Mode)</sub></h3>
       <p>LLM inference in C/C++</p>
       <img src="GitTrendHub/assets/ggerganov_llama.cpp.svg" alt="llama.cpp stats" width="400">
     </td>
@@ -84,10 +93,13 @@
 <p align="right"><a href="#llm_engines">🔼 Back to Section (🤖 LLM Engines & Platforms)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #ff6b6b; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/vllm-project/vllm">vllm</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #ff6b6b; border: 1px solid #ff6b6b; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🤖 LLM Engines & Platforms
+      </div>
+      <h3><a href="https://github.com/vllm-project/vllm">vllm</a> <sub>(Vault Mode)</sub></h3>
       <p>A high-throughput and memory-efficient inference and serving engine for LLMs</p>
       <img src="GitTrendHub/assets/vllm-project_vllm.svg" alt="vllm stats" width="400">
     </td>
@@ -106,10 +118,13 @@
 <h2 id='agents'>🛠️ AI Agents & Orchestration</h2>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #4dabf7; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/openclaw/openclaw">openclaw</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #4dabf7; border: 1px solid #4dabf7; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🛠️ AI Agents & Orchestration
+      </div>
+      <h3><a href="https://github.com/openclaw/openclaw">openclaw</a> <sub>(Vault Mode)</sub></h3>
       <p>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </p>
       <img src="GitTrendHub/assets/openclaw_openclaw.svg" alt="openclaw stats" width="400">
     </td>
@@ -123,10 +138,13 @@
 <p align="right"><a href="#agents">🔼 Back to Section (🛠️ AI Agents & Orchestration)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #4dabf7; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #4dabf7; border: 1px solid #4dabf7; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🛠️ AI Agents & Orchestration
+      </div>
+      <h3><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a> <sub>(Vault Mode)</sub></h3>
       <p>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so ...</p>
       <img src="GitTrendHub/assets/Significant-Gravitas_AutoGPT.svg" alt="AutoGPT stats" width="400">
     </td>
@@ -140,10 +158,13 @@
 <p align="right"><a href="#agents">🔼 Back to Section (🛠️ AI Agents & Orchestration)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #4dabf7; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/browser-use/browser-use">browser-use</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #4dabf7; border: 1px solid #4dabf7; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🛠️ AI Agents & Orchestration
+      </div>
+      <h3><a href="https://github.com/browser-use/browser-use">browser-use</a> <sub>(Vault Mode)</sub></h3>
       <p>🌐 Make websites accessible for AI agents. Automate tasks online with ease.</p>
       <img src="GitTrendHub/assets/browser-use_browser-use.svg" alt="browser-use stats" width="400">
     </td>
@@ -157,10 +178,13 @@
 <p align="right"><a href="#agents">🔼 Back to Section (🛠️ AI Agents & Orchestration)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #4dabf7; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/joaomdmoura/crewAI">crewAI</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #4dabf7; border: 1px solid #4dabf7; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🛠️ AI Agents & Orchestration
+      </div>
+      <h3><a href="https://github.com/joaomdmoura/crewAI">crewAI</a> <sub>(Vault Mode)</sub></h3>
       <p>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empow...</p>
       <img src="GitTrendHub/assets/joaomdmoura_crewAI.svg" alt="crewAI stats" width="400">
     </td>
@@ -179,10 +203,13 @@
 <h2 id='cli_tools'>💻 AI-Powered CLI & DevTools</h2>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #51cf66; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/anthropics/claude-code">claude-code</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #51cf66; border: 1px solid #51cf66; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        💻 AI-Powered CLI & DevTools
+      </div>
+      <h3><a href="https://github.com/anthropics/claude-code">claude-code</a> <sub>(Vault Mode)</sub></h3>
       <p>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code fast...</p>
       <img src="GitTrendHub/assets/anthropics_claude-code.svg" alt="claude-code stats" width="400">
     </td>
@@ -196,10 +223,13 @@
 <p align="right"><a href="#cli_tools">🔼 Back to Section (💻 AI-Powered CLI & DevTools)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #51cf66; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/OpenInterpreter/open-interpreter">open-interpreter</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #51cf66; border: 1px solid #51cf66; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        💻 AI-Powered CLI & DevTools
+      </div>
+      <h3><a href="https://github.com/OpenInterpreter/open-interpreter">open-interpreter</a> <sub>(Vault Mode)</sub></h3>
       <p>A natural language interface for computers</p>
       <img src="GitTrendHub/assets/OpenInterpreter_open-interpreter.svg" alt="open-interpreter stats" width="400">
     </td>
@@ -213,10 +243,13 @@
 <p align="right"><a href="#cli_tools">🔼 Back to Section (💻 AI-Powered CLI & DevTools)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #51cf66; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/paul-gauthier/aider">aider</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #51cf66; border: 1px solid #51cf66; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        💻 AI-Powered CLI & DevTools
+      </div>
+      <h3><a href="https://github.com/paul-gauthier/aider">aider</a> <sub>(Vault Mode)</sub></h3>
       <p>aider is AI pair programming in your terminal</p>
       <img src="GitTrendHub/assets/paul-gauthier_aider.svg" alt="aider stats" width="400">
     </td>
@@ -235,10 +268,13 @@
 <h2 id='art_vision'>🎨 Generative Art & Vision</h2>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #ffa94d; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #ffa94d; border: 1px solid #ffa94d; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🎨 Generative Art & Vision
+      </div>
+      <h3><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a> <sub>(Vault Mode)</sub></h3>
       <p>Stable Diffusion web UI</p>
       <img src="GitTrendHub/assets/AUTOMATIC1111_stable-diffusion-webui.svg" alt="stable-diffusion-webui stats" width="400">
     </td>
@@ -252,10 +288,13 @@
 <p align="right"><a href="#art_vision">🔼 Back to Section (🎨 Generative Art & Vision)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #ffa94d; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/comfyanonymous/ComfyUI">ComfyUI</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #ffa94d; border: 1px solid #ffa94d; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🎨 Generative Art & Vision
+      </div>
+      <h3><a href="https://github.com/comfyanonymous/ComfyUI">ComfyUI</a> <sub>(Vault Mode)</sub></h3>
       <p>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</p>
       <img src="GitTrendHub/assets/comfyanonymous_ComfyUI.svg" alt="ComfyUI stats" width="400">
     </td>
@@ -269,10 +308,13 @@
 <p align="right"><a href="#art_vision">🔼 Back to Section (🎨 Generative Art & Vision)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #ffa94d; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/black-forest-labs/flux">flux</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #ffa94d; border: 1px solid #ffa94d; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🎨 Generative Art & Vision
+      </div>
+      <h3><a href="https://github.com/black-forest-labs/flux">flux</a> <sub>(Vault Mode)</sub></h3>
       <p>Official inference repo for FLUX.1 models</p>
       <img src="GitTrendHub/assets/black-forest-labs_flux.svg" alt="flux stats" width="400">
     </td>
@@ -291,10 +333,13 @@
 <h2 id='frameworks'>🧠 Research & Core Frameworks</h2>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #845ef7; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/huggingface/transformers">transformers</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #845ef7; border: 1px solid #845ef7; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🧠 Research & Core Frameworks
+      </div>
+      <h3><a href="https://github.com/huggingface/transformers">transformers</a> <sub>(Vault Mode)</sub></h3>
       <p>🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, a...</p>
       <img src="GitTrendHub/assets/huggingface_transformers.svg" alt="transformers stats" width="400">
     </td>
@@ -308,10 +353,13 @@
 <p align="right"><a href="#frameworks">🔼 Back to Section (🧠 Research & Core Frameworks)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid #845ef7; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
-      <h3><a href="https://github.com/langchain-ai/langchain">langchain</a></h3>
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: #845ef7; border: 1px solid #845ef7; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        🧠 Research & Core Frameworks
+      </div>
+      <h3><a href="https://github.com/langchain-ai/langchain">langchain</a> <sub>(Vault Mode)</sub></h3>
       <p>The agent engineering platform</p>
       <img src="GitTrendHub/assets/langchain-ai_langchain.svg" alt="langchain stats" width="400">
     </td>
@@ -373,5 +421,5 @@ Stay ahead of the curve with these curated AI resources.
 Data is retrieved using the GitHub REST API and GitHub Actions.
 
 <div align="right">
-  <i>✨ Last Generated: March 04, 2026 - 10:06 UTC</i>
+  <i>✨ Last Generated: March 04, 2026 - 10:11 UTC</i>
 </div>

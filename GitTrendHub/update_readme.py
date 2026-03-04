@@ -118,8 +118,26 @@ def generate_markdown(projects_data, base_dir):
     search_index = {"sections": []}
     api_errors = []
     
+    # Soft but distinct accent colors per section (order-aligned with projects.json)
+    accent_palette = [
+        "#ff6b6b",  # coral
+        "#4dabf7",  # blue
+        "#51cf66",  # green
+        "#ffa94d",  # orange
+        "#845ef7",  # violet
+        "#20c997",  # teal
+        "#ffd43b",  # yellow
+        "#ff922b",  # deep orange
+    ]
+    category_keys = list(projects_data.keys())
+    accent_by_category = {
+        key: accent_palette[idx % len(accent_palette)]
+        for idx, key in enumerate(category_keys)
+    }
+
     for category_key, category_data in projects_data.items():
         title = category_data.get("title", category_key.title())
+        accent = accent_by_category.get(category_key, "#4dabf7")
         sec_lines = []
         sec_lines.append(f"<h2 id='{category_key}'>{title}</h2>")
         sec_lines.append("")
@@ -188,10 +206,14 @@ def generate_markdown(projects_data, base_dir):
             if len(desc_limited) > 120:
                 desc_limited = desc_limited[:117] + "..."
             section_anchor = e["category_id"]
+            badge_text = title.replace('"', "&quot;")
             card_html = f"""
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="border-left: 6px solid {accent}; border-radius: 8px;">
   <tr>
     <td width="60%" valign="top">
+      <div style="display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.2px; color: {accent}; border: 1px solid {accent}; border-radius: 999px; padding: 2px 8px; margin: 2px 0 6px 0;">
+        {badge_text}
+      </div>
       <h3><a href="{e['html_url']}">{e['name']}</a>{e['status_tag']}</h3>
       <p>{desc_limited}</p>
       <img src="{e['svg_asset']}" alt="{e['name']} stats" width="400">
