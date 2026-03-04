@@ -92,9 +92,6 @@ def generate_toc(projects_data):
         desc = category_data.get("description", "")
         repo_count = len(category_data.get("repos", []) or [])
         items.append((category_key, title, repo_count, desc))
-    for sid, title, desc in STATIC_TOC_ENTRIES:
-        items.append((sid, title, "—", desc))
-
     lines = [
         "| # | Section | Repos | What you'll find |",
         "|:--:|---|:--:|---|",
@@ -102,7 +99,12 @@ def generate_toc(projects_data):
     for idx, (section_id, title, repo_count, desc) in enumerate(items, start=1):
         safe_desc = (desc or "").replace("\n", " ").strip()
         lines.append(f"| {idx} | [{title}](#{section_id}) | {repo_count} | {safe_desc} |")
-    return "\n".join(lines)
+    other_lines = ["**Other Sections**"]
+    offset = len(items)
+    for jdx, (sid, title, desc) in enumerate(STATIC_TOC_ENTRIES, start=1):
+        safe_desc = (desc or "").replace("\n", " ").strip()
+        other_lines.append(f"- {offset + jdx}. [{title}](#{sid}) — {safe_desc}")
+    return "\n".join(lines + [""] + other_lines)
 
 
 def generate_markdown(projects_data, base_dir):
@@ -201,7 +203,7 @@ def generate_markdown(projects_data, base_dir):
     </td>
   </tr>
 </table>
-<p align="right"><a href="#{section_anchor}">🔼 Back to Section</a></p>
+<p align="right"><a href="#{section_anchor}">🔼 Back to Section ({title})</a> · <a href="#contents">📑 Back to Contents</a></p>
 """
             sec_lines.append(card_html)
             

@@ -15,7 +15,7 @@
 
 ---
 
-## 📑 Table of Contents
+<h2 id='contents'>📑 Table of Contents</h2>
 
 | # | Section | Repos | What you'll find |
 |:--:|---|:--:|---|
@@ -24,9 +24,11 @@
 | 3 | [💻 AI-Powered CLI & DevTools](#cli_tools) | 3 | AI pair programming in terminal and IDE, code automation, CLI tools |
 | 4 | [🎨 Generative Art & Vision](#art_vision) | 3 | Image and video generation, diffusion models, generative AI UI and APIs |
 | 5 | [🧠 Research & Core Frameworks](#frameworks) | 2 | ML/NLP frameworks, agent platforms, research-grade core libraries |
-| 6 | [🤝 Community & Participation](#how-to-contribute) | — | How to contribute, PR guide, community |
-| 7 | [🌐 AI Resource Navigator](#ai-resource-navigator) | — | Curated links: trends, news, tool discovery |
-| 8 | [📝 Data Summary](#data-summary) | — | Data source and last generated timestamp |
+
+**Other Sections**
+- 6. [🤝 Community & Participation](#how-to-contribute) — How to contribute, PR guide, community
+- 7. [🌐 AI Resource Navigator](#ai-resource-navigator) — Curated links: trends, news, tool discovery
+- 8. [📝 Data Summary](#data-summary) — Data source and last generated timestamp
 
 <h2 id='llm_engines'>🤖 LLM Engines & Platforms</h2>
 
@@ -45,7 +47,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#llm_engines">🔼 Back to Section</a></p>
+<p align="right"><a href="#llm_engines">🔼 Back to Section (🤖 LLM Engines & Platforms)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -62,7 +64,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#llm_engines">🔼 Back to Section</a></p>
+<p align="right"><a href="#llm_engines">🔼 Back to Section (🤖 LLM Engines & Platforms)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -79,7 +81,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#llm_engines">🔼 Back to Section</a></p>
+<p align="right"><a href="#llm_engines">🔼 Back to Section (🤖 LLM Engines & Platforms)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -96,7 +98,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#llm_engines">🔼 Back to Section</a></p>
+<p align="right"><a href="#llm_engines">🔼 Back to Section (🤖 LLM Engines & Platforms)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 ---
@@ -118,7 +120,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#agents">🔼 Back to Section</a></p>
+<p align="right"><a href="#agents">🔼 Back to Section (🛠️ AI Agents & Orchestration)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -135,7 +137,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#agents">🔼 Back to Section</a></p>
+<p align="right"><a href="#agents">🔼 Back to Section (🛠️ AI Agents & Orchestration)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -152,7 +154,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#agents">🔼 Back to Section</a></p>
+<p align="right"><a href="#agents">🔼 Back to Section (🛠️ AI Agents & Orchestration)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -169,7 +171,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#agents">🔼 Back to Section</a></p>
+<p align="right"><a href="#agents">🔼 Back to Section (🛠️ AI Agents & Orchestration)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 ---
@@ -191,7 +193,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#cli_tools">🔼 Back to Section</a></p>
+<p align="right"><a href="#cli_tools">🔼 Back to Section (💻 AI-Powered CLI & DevTools)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -208,7 +210,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#cli_tools">🔼 Back to Section</a></p>
+<p align="right"><a href="#cli_tools">🔼 Back to Section (💻 AI-Powered CLI & DevTools)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -225,7 +227,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#cli_tools">🔼 Back to Section</a></p>
+<p align="right"><a href="#cli_tools">🔼 Back to Section (💻 AI-Powered CLI & DevTools)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 ---
@@ -247,7 +249,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#art_vision">🔼 Back to Section</a></p>
+<p align="right"><a href="#art_vision">🔼 Back to Section (🎨 Generative Art & Vision)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -264,7 +266,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#art_vision">🔼 Back to Section</a></p>
+<p align="right"><a href="#art_vision">🔼 Back to Section (🎨 Generative Art & Vision)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -281,7 +283,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#art_vision">🔼 Back to Section</a></p>
+<p align="right"><a href="#art_vision">🔼 Back to Section (🎨 Generative Art & Vision)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 ---
@@ -303,7 +305,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#frameworks">🔼 Back to Section</a></p>
+<p align="right"><a href="#frameworks">🔼 Back to Section (🧠 Research & Core Frameworks)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -320,7 +322,7 @@
     </td>
   </tr>
 </table>
-<p align="right"><a href="#frameworks">🔼 Back to Section</a></p>
+<p align="right"><a href="#frameworks">🔼 Back to Section (🧠 Research & Core Frameworks)</a> · <a href="#contents">📑 Back to Contents</a></p>
 
 
 ---
@@ -371,5 +373,5 @@ Stay ahead of the curve with these curated AI resources.
 Data is retrieved using the GitHub REST API and GitHub Actions.
 
 <div align="right">
-  <i>✨ Last Generated: March 04, 2026 - 06:21 UTC</i>
+  <i>✨ Last Generated: March 04, 2026 - 10:06 UTC</i>
 </div>
