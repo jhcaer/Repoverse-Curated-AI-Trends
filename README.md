@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="GitTrendHub/image4.png" alt="AI TrendHub Banner" width="400">
+  <img src="GitTrendHub/image4.png" alt="AI TrendHub Banner" width="450">
 </div>
 
 # 🤖 AI TrendHub – The Pulse of Artificial Intelligence

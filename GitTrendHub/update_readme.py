@@ -256,7 +256,7 @@ def generate_markdown(projects_data, base_dir):
     </td>
   </tr>
 </table>
-<p align="right"><a href="#{section_anchor}">🔼 Back to Section ({title})</a> · <a href="#contents">📑 Back to Contents</a></p>
+<p align="right"><a href="#{section_anchor}">🔼 Back to Section </a> · <a href="#contents">📑 Back to Contents</a></p>
 """
             sec_lines.append(card_html)
             
