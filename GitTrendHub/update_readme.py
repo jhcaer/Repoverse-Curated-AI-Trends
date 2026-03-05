@@ -83,15 +83,10 @@ def generate_transparent_png(filepath, width=1, height=1):
     with open(filepath, "wb") as f:
         f.write(png)
 
-def generate_title_badge_svg(text, accent, width=360, height=36):
+def generate_title_badge_svg(text, accent, width=360, height=40):
     safe_text = (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-    text_x = 14
-    text_y = height / 2 + 4
-    max_text_width = max(60, width - 24)
-    estimated_text_width = len(text or "") * 12
-    length_attrs = ""
-    if estimated_text_width > max_text_width:
-        length_attrs = f' textLength="{max_text_width}" lengthAdjust="spacing"'
+    text_x = 16
+    text_y = height / 2 + 5
     return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
@@ -99,8 +94,8 @@ def generate_title_badge_svg(text, accent, width=360, height=36):
       <stop offset="100%" stop-color="#3a7bd5"/>
     </linearGradient>
   </defs>
-  <rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="7" fill="url(#g)" stroke="#1f242a"/>
-  <text x="{text_x}" y="{text_y}" text-anchor="start" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff"{length_attrs}>{safe_text}</text>
+  <rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="9" fill="url(#g)" stroke="#1f242a"/>
+  <text x="{text_x}" y="{text_y}" text-anchor="start" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">{safe_text}</text>
 </svg>"""
 
 def language_color(name):
@@ -358,8 +353,8 @@ def generate_markdown(projects_data, base_dir):
                 f.write(generate_svg_card(e))
             
             e["svg_asset"] = f"assets/{svg_filename}"
-            title_width = min(360, max(110, int(10 * len(e["name"]) + 40)))
-            title_svg = generate_title_badge_svg(e["name"], accent, width=title_width, height=36)
+            title_width = min(420, max(120, int(12 * len(e["name"]) + 60)))
+            title_svg = generate_title_badge_svg(e["name"], accent, width=title_width, height=40)
             title_hash = hashlib.sha1(title_svg.encode("utf-8")).hexdigest()[:8]
             title_filename = f"title_{e['repo_path'].replace('/', '_')}_{category_key}_{title_hash}.svg"
             title_path = os.path.join(title_dir, title_filename)
@@ -385,7 +380,7 @@ def generate_markdown(projects_data, base_dir):
   <tr>
     <td width="58%" valign="top">
       <div>
-        <a href="{e['html_url']}"><img src="{e['title_badge']}" alt="{e['name']}" height="36"></a>{e['status_tag']}
+        <a href="{e['html_url']}"><img src="{e['title_badge']}" alt="{e['name']}" height="40"></a>{e['status_tag']}
       </div>
       <p style="line-height: 1.5;">{desc_limited}</p>
     </td>
