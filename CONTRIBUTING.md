@@ -16,10 +16,9 @@ Requirements:
 
 Optional (recommended):
 - Set `GITHUB_TOKEN` to avoid rate limits when fetching repo metadata
-
+Example:
 ```bash
-cp GitTrendHub/.env.example .env
-# Edit .env and set GITHUB_TOKEN=...
+export GITHUB_TOKEN="your_token_here"
 ```
 
 ### Regenerating outputs
@@ -40,7 +39,7 @@ This will update:
 1. Edit `GitTrendHub/projects.json` and add a repo under the right section:
 
 ```json
-{ "url_path": "OWNER/REPO", "last_stars": "Hot" }
+{ "url_path": "OWNER/REPO", "manual_desc": "One-line description you want shown." }
 ```
 
 2. Regenerate outputs:
@@ -69,4 +68,3 @@ python3 -m GitTrendHub.cli search \"stable diffusion\"
 ### Notes on GitHub rendering
 
 GitHub sanitizes HTML/CSS inside `README.md`. If you want “table-like UI”, prefer **Markdown tables** and plain HTML tables without inline styles.
-

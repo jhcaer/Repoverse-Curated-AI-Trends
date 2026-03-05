@@ -352,15 +352,19 @@ def generate_markdown(projects_data, base_dir):
 <table width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="58%" valign="top">
-      <div style="line-height: 1.1;"><a href="{e['html_url']}"><kbd><span style="font-size: 30px; font-weight: 800;">{e['name']}</span></kbd></a>{e['status_tag']}</div>
+      <div style="line-height: 1.1;"><a href="{e['html_url']}"><kbd><span style="font-size: 60px; font-weight: 800;">{e['name']}</span></kbd></a>{e['status_tag']}</div>
       <p style="line-height: 1.5;">{desc_limited}</p>
     </td>
     <td width="42%" valign="middle" align="center">
       <img src="{e['svg_asset']}" alt="{e['name']} stats" width="400">
     </td>
   </tr>
+  <tr>
+    <td colspan="2" align="right">
+      <a href="#{section_anchor}"><kbd>{section_emoji} Back to Section</kbd></a> · <a href="#contents"><kbd>📑 Contents</kbd></a>
+    </td>
+  </tr>
 </table>
-<p align="right"><a href="#{section_anchor}"><kbd>{section_emoji} Back to Section</kbd></a> · <a href="#contents"><kbd>📑 Contents</kbd></a></p>
 """
             sec_lines.append(card_html)
             
