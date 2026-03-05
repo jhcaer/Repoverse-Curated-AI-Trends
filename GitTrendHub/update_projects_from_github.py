@@ -57,12 +57,10 @@ def github_get(url, params=None):
         resp = requests.get(url, headers=HEADERS, params=params, timeout=20)
     except requests.RequestException as exc:
         raise RuntimeError(f"Network error: {exc}") from exc
-    if resp.status_code != 200:
-        raise RuntimeError(f"GitHub API error {resp.status_code}: {resp.text[:200]}")
     return resp
 
 
-def search_repositories(query, min_stars, pushed_after, pages=2, per_page=100):
+def search_repositories(query, min_stars, pushed_after, pages=2, per_page=100, sleep_on_rate_limit=False):
     base = "https://api.github.com/search/repositories"
     qualifiers = f"archived:false fork:false pushed:>{pushed_after} stars:>={min_stars}"
     q = f"{query} {qualifiers}".strip()
@@ -76,6 +74,18 @@ def search_repositories(query, min_stars, pushed_after, pages=2, per_page=100):
             "page": page,
         }
         resp = github_get(base, params=params)
+        if resp.status_code != 200:
+            if resp.status_code == 403 and "rate limit" in resp.text.lower():
+                if sleep_on_rate_limit:
+                    reset = int(resp.headers.get("X-RateLimit-Reset", "0"))
+                    wait = max(0, reset - int(datetime.now(timezone.utc).timestamp()) + 2)
+                    if wait > 0:
+                        print(f"Rate limit hit. Sleeping {wait}s until reset...")
+                        import time
+                        time.sleep(wait)
+                        continue
+                raise RuntimeError("GitHub API rate limit exceeded. Set GITHUB_TOKEN or try later.")
+            raise RuntimeError(f"GitHub API error {resp.status_code}: {resp.text[:200]}")
         data = resp.json()
         items = data.get("items", [])
         if not items:
@@ -97,7 +107,7 @@ def trend_score(repo, now, recency_days):
     return (stars_per_day * 100.0) + (recency * 50.0) + (math.log10(stars + 1) * 10.0)
 
 
-def update_projects(projects_path, per_section, min_stars, recency_days, mode):
+def update_projects(projects_path, per_section, min_stars, recency_days, mode, pages, sleep_on_rate_limit):
     data = json.loads(projects_path.read_text(encoding="utf-8"))
     now = datetime.now(timezone.utc)
     pushed_after = (now - timedelta(days=recency_days)).date().isoformat()
@@ -109,7 +119,7 @@ def update_projects(projects_path, per_section, min_stars, recency_days, mode):
             continue
         candidates = {}
         for q in queries:
-            for repo in search_repositories(q, min_stars, pushed_after):
+            for repo in search_repositories(q, min_stars, pushed_after, pages=pages, sleep_on_rate_limit=sleep_on_rate_limit):
                 full_name = repo.get("full_name")
                 if not full_name:
                     continue
@@ -141,6 +151,7 @@ def update_projects(projects_path, per_section, min_stars, recency_days, mode):
             meta["repos"] = selected
 
         print(f"{section}: selected {len(meta['repos'])} repos")
+        projects_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
     projects_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -151,6 +162,8 @@ def main():
     parser.add_argument("--min-stars", type=int, default=200)
     parser.add_argument("--recency-days", type=int, default=180)
     parser.add_argument("--mode", choices=["replace", "merge"], default="replace")
+    parser.add_argument("--pages", type=int, default=2, help="Search pages per query (each page costs 1 request).")
+    parser.add_argument("--sleep-on-rate-limit", action="store_true")
     args = parser.parse_args()
 
     base_dir = Path(__file__).resolve().parent
@@ -162,6 +175,8 @@ def main():
         min_stars=args.min_stars,
         recency_days=args.recency_days,
         mode=args.mode,
+        pages=args.pages,
+        sleep_on_rate_limit=args.sleep_on_rate_limit,
     )
     print("projects.json updated. Run `python3 update_readme.py` to regenerate README.")
 
