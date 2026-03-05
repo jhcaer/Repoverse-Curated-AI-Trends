@@ -134,9 +134,17 @@ def generate_svg_card(e):
     growth_color = "#3fb950" if e['growth'] > 0 else "#f85149"
     growth_icon = "▲" if e['growth'] > 0 else "▼"
     
+    if len(accents) > 1:
+        accent_rects = (
+            f'<rect x="0.5" y="0.5" width="6" height="74" rx="3" fill="{accents[0]}"/>'
+            f'<rect x="0.5" y="75.5" width="6" height="74" rx="3" fill="{accents[1]}"/>'
+        )
+    else:
+        accent_rects = f'<rect x="0.5" y="0.5" width="6" height="149" rx="3" fill="{accents[0]}"/>'
+
     svg = f"""<svg width="400" height="150" viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect x="0.5" y="0.5" width="399" height="149" rx="9.5" fill="#0d1117" stroke="#30363d"/>
-  {"".join([f'<rect x=\"0.5\" y=\"0.5\" width=\"6\" height=\"74\" rx=\"3\" fill=\"{accents[0]}\"/>' if len(accents)>1 else f'<rect x=\"0.5\" y=\"0.5\" width=\"6\" height=\"149\" rx=\"3\" fill=\"{accents[0]}\"/>' , f'<rect x=\"0.5\" y=\"75.5\" width=\"6\" height=\"74\" rx=\"3\" fill=\"{accents[1]}\"/>' if len(accents)>1 else '' ])}
+  {accent_rects}
   <text x="20" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#58a6ff">{e['name']}</text>
   <text x="20" y="55" font-family="Arial, sans-serif" font-size="12" fill="#8b949e">{e['repo_path']}</text>
   
@@ -340,7 +348,7 @@ def generate_markdown(projects_data, base_dir):
 <table width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="58%" valign="top">
-      <div style="font-size: 26px; font-weight: 800; line-height: 1.1;"><a href="{e['html_url']}"><kbd>{e['name']}</kbd></a>{e['status_tag']}</div>
+      <div style="line-height: 1.1;"><a href="{e['html_url']}"><kbd><span style="font-size: 30px; font-weight: 800;">{e['name']}</span></kbd></a>{e['status_tag']}</div>
       <p style="line-height: 1.5;">{desc_limited}</p>
     </td>
     <td width="42%" valign="middle" align="center">
