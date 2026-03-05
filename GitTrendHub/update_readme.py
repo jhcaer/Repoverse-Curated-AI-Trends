@@ -331,14 +331,15 @@ def generate_markdown(projects_data, base_dir):
         enriched_repos.sort(key=lambda x: x["stars"], reverse=True)
         
         for e in enriched_repos:
-            desc_limited = format_desc_fixed(e['description'], max_chars=180, line_len=60, min_lines=2)
+            desc_limited = format_desc_fixed(e['description'], max_chars=180, line_len=60, min_lines=3)
             section_anchor = e["category_id"]
             card_html = f"""
 <table width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="58%" valign="top">
-      <div><a href="{e['html_url']}"><strong>{e['name']}</strong></a>{e['status_tag']}</div>
+      <div><a href="{e['html_url']}"><kbd><strong>{e['name']}</strong></kbd></a>{e['status_tag']}</div>
       <p>{desc_limited}</p>
+      <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="middle" align="center">
       <img src="{e['svg_asset']}" alt="{e['name']} stats" width="400">
@@ -369,7 +370,7 @@ def main():
         codes = {}
         for _, c in api_errors:
             codes[c] = codes.get(c, 0) + 1
-        msg = ", ".join(f"{c}: {n}" for c, n in sorted(codes.items()))
+        msg = ", ".join(f"{c}: {n}" for c, n in sorted(codes.items(), key=lambda kv: str(kv[0])))
         print(f"  Note: Using cached data for some repos ({msg}). README was still generated.")
     
     print("Saving updated projects.json...")
