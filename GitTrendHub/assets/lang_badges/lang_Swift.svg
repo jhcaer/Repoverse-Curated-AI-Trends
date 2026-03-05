@@ -1,0 +1,5 @@
+<svg width="140" height="28" viewBox="0 0 140 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="139" height="27" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="12" cy="14.0" r="5" fill="#F05138"/>
+  <text x="24" y="18.0" font-family="Arial, sans-serif" font-size="12" fill="#c9d1d9">Swift</text>
+</svg>

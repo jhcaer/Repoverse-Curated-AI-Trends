@@ -35,7 +35,7 @@ def parse_stars(val):
     except:
         return 0
 
-def format_desc_fixed(desc, max_chars=180, line_len=60, lines=3):
+def format_desc_fixed(desc, max_chars=180, line_len=60):
     if not desc:
         desc = "No description provided"
     text = desc.replace("\n", " ").strip()
@@ -52,15 +52,59 @@ def format_desc_fixed(desc, max_chars=180, line_len=60, lines=3):
         else:
             chunks.append(current)
             current = w
-        if len(chunks) >= lines:
-            break
-    if len(chunks) < lines and current:
+    if current:
         chunks.append(current)
-    chunks = chunks[:lines]
-    if len(chunks) < lines:
-        chunks.extend(["&nbsp;"] * (lines - len(chunks)))
-    rows = "".join(f"<tr><td>{c}</td></tr>" for c in chunks)
-    return f"<table cellpadding=\"0\" cellspacing=\"0\">{rows}</table>"
+    return "<br>".join(chunks)
+
+def generate_transparent_png(filepath, width=1, height=1):
+    # Minimal PNG writer with alpha channel (transparent).
+    import struct
+    import zlib
+    row = bytes([0] + [0, 0, 0, 0] * width)  # filter byte + RGBA pixels
+    raw = row * height
+    compressed = zlib.compress(raw, level=9)
+
+    def chunk(chunk_type, data):
+        return (
+            struct.pack(">I", len(data))
+            + chunk_type
+            + data
+            + struct.pack(">I", zlib.crc32(chunk_type + data) & 0xFFFFFFFF)
+        )
+
+    ihdr = struct.pack(">IIBBBBB", width, height, 8, 6, 0, 0, 0)
+    png = b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", ihdr) + chunk(b"IDAT", compressed) + chunk(b"IEND", b"")
+    with open(filepath, "wb") as f:
+        f.write(png)
+
+def language_color(name):
+    if not name:
+        return "#6e7681"
+    palette = {
+        "Python": "#3572A5",
+        "JavaScript": "#f1e05a",
+        "TypeScript": "#2b7489",
+        "Java": "#b07219",
+        "C++": "#f34b7d",
+        "C": "#555555",
+        "Go": "#00ADD8",
+        "Rust": "#dea584",
+        "Swift": "#F05138",
+        "Kotlin": "#A97BFF",
+        "Jupyter Notebook": "#DA5B0B",
+        "Shell": "#89e051",
+        "HTML": "#e34c26",
+        "CSS": "#563d7c",
+    }
+    return palette.get(name, "#6e7681")
+
+def generate_language_badge_svg(lang, color, width=140, height=28):
+    label = (lang or "N/A").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="12" cy="{height/2}" r="5" fill="{color}"/>
+  <text x="24" y="{height/2+4}" font-family="Arial, sans-serif" font-size="12" fill="#c9d1d9">{label}</text>
+</svg>"""
 
 def fetch_repo_stats(repo_path, _api_errors=None):
     url = f"https://api.github.com/repos/{repo_path}"
@@ -169,6 +213,12 @@ def generate_markdown(projects_data, base_dir):
     assets_dir = os.path.join(base_dir, "assets")
     if not os.path.exists(assets_dir):
         os.makedirs(assets_dir)
+    badges_dir = os.path.join(assets_dir, "lang_badges")
+    if not os.path.exists(badges_dir):
+        os.makedirs(badges_dir)
+    spacer_path = os.path.join(assets_dir, "spacer.png")
+    if not os.path.exists(spacer_path):
+        generate_transparent_png(spacer_path, width=1, height=1)
     
     all_enriched_repos = []
     dynamic_sections = []
@@ -254,6 +304,14 @@ def generate_markdown(projects_data, base_dir):
                 f.write(generate_svg_card(e))
             
             e["svg_asset"] = f"assets/{svg_filename}"
+            lang = e["language"]
+            lang_color = language_color(lang)
+            lang_badge_filename = f"lang_{(lang or 'na').replace(' ', '_').replace('/', '_')}.svg"
+            lang_badge_path = os.path.join(badges_dir, lang_badge_filename)
+            if not os.path.exists(lang_badge_path):
+                with open(lang_badge_path, "w", encoding="utf-8") as f:
+                    f.write(generate_language_badge_svg(lang, lang_color))
+            e["lang_badge"] = f"assets/lang_badges/{lang_badge_filename}"
             enriched_repos.append(e)
             all_enriched_repos.append(e)
             search_index["sections"][-1]["repos"].append({
@@ -266,16 +324,18 @@ def generate_markdown(projects_data, base_dir):
         enriched_repos.sort(key=lambda x: x["stars"], reverse=True)
         
         for e in enriched_repos:
-            desc_limited = format_desc_fixed(e['description'], max_chars=180, line_len=60, lines=3)
+            desc_limited = format_desc_fixed(e['description'], max_chars=180, line_len=60)
             section_anchor = e["category_id"]
             card_html = f"""
 <table width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="58%" valign="top">
       <h3><a href="{e['html_url']}">{e['name']}</a>{e['status_tag']}</h3>
-      {desc_limited}
+      <p>{desc_limited}</p>
+      <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
+      <img src="{e['lang_badge']}" alt="{e['language']} badge" width="140">
       <img src="{e['svg_asset']}" alt="{e['name']} stats" width="400">
     </td>
   </tr>
