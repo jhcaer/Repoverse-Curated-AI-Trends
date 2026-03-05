@@ -82,8 +82,10 @@ def generate_transparent_png(filepath, width=1, height=1):
     with open(filepath, "wb") as f:
         f.write(png)
 
-def generate_title_badge_svg(text, accent, width=420, height=50):
+def generate_title_badge_svg(text, accent, width=420, height=48):
     safe_text = (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    text_x = width / 2
+    text_y = height / 2 + 6
     return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
@@ -92,7 +94,7 @@ def generate_title_badge_svg(text, accent, width=420, height=50):
     </linearGradient>
   </defs>
   <rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="10" fill="url(#g)" stroke="#1f242a"/>
-  <text x="16" y="{height/2+6}" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#ffffff">{safe_text}</text>
+  <text x="{text_x}" y="{text_y}" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="#ffffff">{safe_text}</text>
 </svg>"""
 
 def language_color(name):
@@ -350,11 +352,11 @@ def generate_markdown(projects_data, base_dir):
                 f.write(generate_svg_card(e))
             
             e["svg_asset"] = f"assets/{svg_filename}"
-            title_width = min(720, max(260, 18 * len(e["name"]) + 140))
+            title_width = min(560, max(200, 16 * len(e["name"]) + 120))
             title_filename = f"title_{e['repo_path'].replace('/', '_')}_{category_key}.svg"
             title_path = os.path.join(title_dir, title_filename)
             with open(title_path, "w", encoding="utf-8") as f:
-                f.write(generate_title_badge_svg(e["name"], accent, width=title_width, height=50))
+                f.write(generate_title_badge_svg(e["name"], accent, width=title_width, height=48))
             e["title_badge"] = f"assets/title_badges/{title_filename}"
             enriched_repos.append(e)
             all_enriched_repos.append(e)
@@ -375,7 +377,7 @@ def generate_markdown(projects_data, base_dir):
   <tr>
     <td width="58%" valign="top">
       <div>
-        <a href="{e['html_url']}"><img src="{e['title_badge']}" alt="{e['name']}" height="50"></a>{e['status_tag']}
+        <a href="{e['html_url']}"><img src="{e['title_badge']}" alt="{e['name']}" height="48"></a>{e['status_tag']}
       </div>
       <p style="line-height: 1.5;">{desc_limited}</p>
     </td>
