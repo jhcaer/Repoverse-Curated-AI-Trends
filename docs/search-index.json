@@ -927,22 +927,424 @@
       "description": "Image and video generation, diffusion models, generative AI UI and APIs",
       "repos": [
         {
-          "name": "flux",
-          "url_path": "black-forest-labs/flux",
-          "html_url": "https://github.com/black-forest-labs/flux",
-          "description": "Official inference repo for FLUX.1 models"
-        },
-        {
           "name": "stable-diffusion-webui",
           "url_path": "AUTOMATIC1111/stable-diffusion-webui",
           "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
           "description": "Stable Diffusion web UI"
         },
         {
-          "name": "ComfyUI",
-          "url_path": "comfyanonymous/ComfyUI",
-          "html_url": "https://github.com/comfyanonymous/ComfyUI",
-          "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+          "name": "Awesome-Nano-Banana-images",
+          "url_path": "PicoTrex/Awesome-Nano-Banana-images",
+          "html_url": "https://github.com/PicoTrex/Awesome-Nano-Banana-images",
+          "description": "A curated collection of fun and creative examples generated with Nano Banana & Nano Banana Pro🍌, Gemini-2.5-flash-image based model. We also release Nano-consistent-150K openly to support the communit..."
+        },
+        {
+          "name": "HunyuanVideo-1.5",
+          "url_path": "Tencent-Hunyuan/HunyuanVideo-1.5",
+          "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+          "description": "HunyuanVideo-1.5: A leading lightweight video generation model"
+        },
+        {
+          "name": "iris.c",
+          "url_path": "antirez/iris.c",
+          "html_url": "https://github.com/antirez/iris.c",
+          "description": "Flux 2 image generation model pure C inference"
+        },
+        {
+          "name": "LocalAI",
+          "url_path": "mudler/LocalAI",
+          "html_url": "https://github.com/mudler/LocalAI",
+          "description": ":robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers,..."
+        },
+        {
+          "name": "paperbanana",
+          "url_path": "llmsresearch/paperbanana",
+          "html_url": "https://github.com/llmsresearch/paperbanana",
+          "description": "Open source implementation and extension of Google Research’s PaperBanana for automated academic figures, diagrams, and research visuals, expanded to new domains like slide generation."
+        },
+        {
+          "name": "Qwen-Image",
+          "url_path": "QwenLM/Qwen-Image",
+          "html_url": "https://github.com/QwenLM/Qwen-Image",
+          "description": "Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing."
+        },
+        {
+          "name": "Duix-Avatar",
+          "url_path": "duixcom/Duix-Avatar",
+          "html_url": "https://github.com/duixcom/Duix-Avatar",
+          "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning."
+        },
+        {
+          "name": "HunyuanVideo",
+          "url_path": "Tencent-Hunyuan/HunyuanVideo",
+          "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+          "description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model"
+        },
+        {
+          "name": "InfiniteTalk",
+          "url_path": "MeiGen-AI/InfiniteTalk",
+          "html_url": "https://github.com/MeiGen-AI/InfiniteTalk",
+          "description": "​​Unlimited-length talking video generation​​ that supports image-to-video and video-to-video generation"
+        },
+        {
+          "name": "diffusers",
+          "url_path": "huggingface/diffusers",
+          "html_url": "https://github.com/huggingface/diffusers",
+          "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch."
+        },
+        {
+          "name": "off-grid-mobile-ai",
+          "url_path": "alichherawalla/off-grid-mobile-ai",
+          "html_url": "https://github.com/alichherawalla/off-grid-mobile-ai",
+          "description": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Download an LLM and use it on your mobile device. No data ever leaves your phone. Supports text-to-..."
+        },
+        {
+          "name": "MOVA",
+          "url_path": "OpenMOSS/MOVA",
+          "html_url": "https://github.com/OpenMOSS/MOVA",
+          "description": "MOVA: Towards Scalable and Synchronized Video–Audio Generation"
+        },
+        {
+          "name": "Qwen3-Omni",
+          "url_path": "QwenLM/Qwen3-Omni",
+          "html_url": "https://github.com/QwenLM/Qwen3-Omni",
+          "description": "Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understanding text, audio, images, and video, as well as generating speech in real time."
+        },
+        {
+          "name": "InvokeAI",
+          "url_path": "invoke-ai/InvokeAI",
+          "html_url": "https://github.com/invoke-ai/InvokeAI",
+          "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The sol..."
+        },
+        {
+          "name": "awesome-seedance",
+          "url_path": "ZeroLu/awesome-seedance",
+          "html_url": "https://github.com/ZeroLu/awesome-seedance",
+          "description": "The ultimate collection of high-fidelity Seedance 2.0 prompts and Seedance AI resources. Discover Seedance 2.0 how to use for cinematic film, anime, UGC, social media, meme and advertising. Includes S..."
+        },
+        {
+          "name": "PromptEnhancer",
+          "url_path": "Hunyuan-PromptEnhancer/PromptEnhancer",
+          "html_url": "https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer",
+          "description": "PromptEnhancer is a prompt-rewriting tool, refining prompts into clearer, structured versions for better image generation."
+        },
+        {
+          "name": "HunyuanImage-3.0",
+          "url_path": "Tencent-Hunyuan/HunyuanImage-3.0",
+          "html_url": "https://github.com/Tencent-Hunyuan/HunyuanImage-3.0",
+          "description": "HunyuanImage-3.0: A Powerful Native Multimodal Model for Image Generation"
+        },
+        {
+          "name": "short-video-factory",
+          "url_path": "YILS-LIN/short-video-factory",
+          "html_url": "https://github.com/YILS-LIN/short-video-factory",
+          "description": "一键生成产品营销与泛内容短视频，AI批量自动剪辑，高颜值跨平台桌面端工具 One click generation of product marketing and general content short videos, AI batch automatic cliping, beautiful cross platform desktop tool"
+        },
+        {
+          "name": "Stable-Video-Infinity",
+          "url_path": "vita-epfl/Stable-Video-Infinity",
+          "html_url": "https://github.com/vita-epfl/Stable-Video-Infinity",
+          "description": "[ICLR 26 Oral] Stable Video Infinity: Infinite-Length Video Generation with Error Recycling"
+        },
+        {
+          "name": "SoulX-FlashHead",
+          "url_path": "Soul-AILab/SoulX-FlashHead",
+          "html_url": "https://github.com/Soul-AILab/SoulX-FlashHead",
+          "description": "SoulX-FlashHead: A unified 1.3B-parameter framework designed for high-fidelity, infinite-length, and real-time streaming portrait video generation."
+        },
+        {
+          "name": "Paper2Video",
+          "url_path": "showlab/Paper2Video",
+          "html_url": "https://github.com/showlab/Paper2Video",
+          "description": "Automatic Video Generation from Scientific Papers"
+        },
+        {
+          "name": "Causal-Forcing",
+          "url_path": "thu-ml/Causal-Forcing",
+          "html_url": "https://github.com/thu-ml/Causal-Forcing",
+          "description": "Official codebase for \"Causal Forcing: Autoregressive Diffusion Distillation Done Right for High-Quality Real-Time Interactive Video Generation\""
+        },
+        {
+          "name": "gemini-business2api",
+          "url_path": "Dreamy-rain/gemini-business2api",
+          "html_url": "https://github.com/Dreamy-rain/gemini-business2api",
+          "description": "OpenAI-compatible API for Gemini Business with multi-account load balancing and multimodal capabilities (image/video generation, file parsing) \\| 将 Gemini Business 转为 OpenAI 兼容接口，支持多账户负载均衡及多模态能力（图像生成、..."
+        },
+        {
+          "name": "stable-diffusion-webui-colab",
+          "url_path": "camenduru/stable-diffusion-webui-colab",
+          "html_url": "https://github.com/camenduru/stable-diffusion-webui-colab",
+          "description": "stable diffusion webui colab"
+        },
+        {
+          "name": "VAR",
+          "url_path": "FoundationVision/VAR",
+          "html_url": "https://github.com/FoundationVision/VAR",
+          "description": "[NeurIPS 2024 Best Paper Award][GPT beats diffusion🔥] [scaling laws in visual generation📈] Official impl. of \"Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction\". An *..."
+        },
+        {
+          "name": "OmniCustom",
+          "url_path": "OmniCustom-project/OmniCustom",
+          "html_url": "https://github.com/OmniCustom-project/OmniCustom",
+          "description": "Official Implementation of 'OmniCustom: Sync Audio-Video Customization Via Joint Audio-Video Generation Model' "
+        },
+        {
+          "name": "MultiTalk",
+          "url_path": "MeiGen-AI/MultiTalk",
+          "html_url": "https://github.com/MeiGen-AI/MultiTalk",
+          "description": "[NeurIPS 2025] Let Them Talk: Audio-Driven Multi-Person Conversational Video Generation"
+        },
+        {
+          "name": "Code2Video",
+          "url_path": "showlab/Code2Video",
+          "html_url": "https://github.com/showlab/Code2Video",
+          "description": "Video generation via code"
+        },
+        {
+          "name": "Helios",
+          "url_path": "PKU-YuanGroup/Helios",
+          "html_url": "https://github.com/PKU-YuanGroup/Helios",
+          "description": "Helios: Real Real-Time Long Video Generation Model"
+        },
+        {
+          "name": "CogVideo",
+          "url_path": "zai-org/CogVideo",
+          "html_url": "https://github.com/zai-org/CogVideo",
+          "description": "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)"
+        },
+        {
+          "name": "Hitomi-Downloader",
+          "url_path": "KurtBestor/Hitomi-Downloader",
+          "html_url": "https://github.com/KurtBestor/Hitomi-Downloader",
+          "description": ":cake: Desktop utility to download images/videos/music/text from various websites, and more."
+        },
+        {
+          "name": "ShareX",
+          "url_path": "ShareX/ShareX",
+          "html_url": "https://github.com/ShareX/ShareX",
+          "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types t..."
+        },
+        {
+          "name": "easydiffusion",
+          "url_path": "easydiffusion/easydiffusion",
+          "html_url": "https://github.com/easydiffusion/easydiffusion",
+          "description": "An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and ..."
+        },
+        {
+          "name": "OmniGen",
+          "url_path": "VectorSpaceLab/OmniGen",
+          "html_url": "https://github.com/VectorSpaceLab/OmniGen",
+          "description": "OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340"
+        },
+        {
+          "name": "HunyuanWorld-Voyager",
+          "url_path": "Tencent-Hunyuan/HunyuanWorld-Voyager",
+          "html_url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager",
+          "description": "Voyager is an interactive RGBD video generation model conditioned on camera input, and supports real-time 3D reconstruction."
+        },
+        {
+          "name": "StabilityMatrix",
+          "url_path": "LykosAI/StabilityMatrix",
+          "html_url": "https://github.com/LykosAI/StabilityMatrix",
+          "description": "Multi-Platform Package Manager for Stable Diffusion"
+        },
+        {
+          "name": "aidea",
+          "url_path": "mylxsw/aidea",
+          "html_url": "https://github.com/mylxsw/aidea",
+          "description": "An APP that integrates mainstream large language models and image generation models, built with Flutter, with fully open-source code."
+        },
+        {
+          "name": "ttt-video-dit",
+          "url_path": "test-time-training/ttt-video-dit",
+          "html_url": "https://github.com/test-time-training/ttt-video-dit",
+          "description": "Official PyTorch implementation of One-Minute Video Generation with Test-Time Training"
+        },
+        {
+          "name": "EgoX",
+          "url_path": "DAVIAN-Robotics/EgoX",
+          "html_url": "https://github.com/DAVIAN-Robotics/EgoX",
+          "description": "Code for \"EgoX: Egocentric Video Generation from a Single Exocentric Video\""
+        },
+        {
+          "name": "GABRIEL",
+          "url_path": "openai/GABRIEL",
+          "html_url": "https://github.com/openai/GABRIEL",
+          "description": "An official OpenAI toolkit for social scientists and data scientists to measure quantitative attributes in text, images, or audio using the GPT API."
+        },
+        {
+          "name": "ViMax",
+          "url_path": "HKUDS/ViMax",
+          "html_url": "https://github.com/HKUDS/ViMax",
+          "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\""
+        },
+        {
+          "name": "awesome-seedance-2-prompts",
+          "url_path": "YouMind-OpenLab/awesome-seedance-2-prompts",
+          "html_url": "https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts",
+          "description": "🎬 500+ curated Seedance 2.0 video generation prompts — cinematic, anime, UGC, ads, meme styles. Includes Seedance API guides, character consistency tips, and advanced video workflows."
+        },
+        {
+          "name": "Hunyuan3D-1",
+          "url_path": "Tencent-Hunyuan/Hunyuan3D-1",
+          "html_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-1",
+          "description": "Tencent Hunyuan3D-1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation"
+        },
+        {
+          "name": "StoryGen-Atelier",
+          "url_path": "0xsline/StoryGen-Atelier",
+          "html_url": "https://github.com/0xsline/StoryGen-Atelier",
+          "description": "AI-assisted storyboard and video generation tool. Uses Gemini for generating storyboard text and frames, Vertex AI Veo for generating transition clips, and ffmpeg for stitching the final video. Built-..."
+        },
+        {
+          "name": "DirectorsConsole",
+          "url_path": "NickPittas/DirectorsConsole",
+          "html_url": "https://github.com/NickPittas/DirectorsConsole",
+          "description": "A web application for prompt generation and multiple ComfyUI remote and local connections for image and video generation in parallel in an infinite canvas"
+        },
+        {
+          "name": "ComfyUI-LTXVideo",
+          "url_path": "Lightricks/ComfyUI-LTXVideo",
+          "html_url": "https://github.com/Lightricks/ComfyUI-LTXVideo",
+          "description": "LTX-Video Support for ComfyUI"
+        },
+        {
+          "name": "MochiDiffusion",
+          "url_path": "MochiDiffusion/MochiDiffusion",
+          "html_url": "https://github.com/MochiDiffusion/MochiDiffusion",
+          "description": "Run Stable Diffusion on Mac natively"
+        },
+        {
+          "name": "automate-for-growth",
+          "url_path": "cporter202/automate-for-growth",
+          "html_url": "https://github.com/cporter202/automate-for-growth",
+          "description": "Complete guide to automating content for growth: Sora 2 video generation, brand authority automation, multi-platform posting, bulk content creation, and API integration."
+        },
+        {
+          "name": "LongLive",
+          "url_path": "NVlabs/LongLive",
+          "html_url": "https://github.com/NVlabs/LongLive",
+          "description": "[ICLR 2026] LongLive: Real-time Interactive Long Video Generation"
+        },
+        {
+          "name": "autoclip",
+          "url_path": "zhouxiaoka/autoclip",
+          "html_url": "https://github.com/zhouxiaoka/autoclip",
+          "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具"
+        },
+        {
+          "name": "SkyReels-V3",
+          "url_path": "SkyworkAI/SkyReels-V3",
+          "html_url": "https://github.com/SkyworkAI/SkyReels-V3",
+          "description": "SkyReels V3: Multimodal Video Generation Model"
+        },
+        {
+          "name": "HuMo",
+          "url_path": "Phantom-video/HuMo",
+          "html_url": "https://github.com/Phantom-video/HuMo",
+          "description": "HuMo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning"
+        },
+        {
+          "name": "imaginAIry",
+          "url_path": "brycedrennan/imaginAIry",
+          "html_url": "https://github.com/brycedrennan/imaginAIry",
+          "description": "Pythonic AI generation of images and videos"
+        },
+        {
+          "name": "big-AGI",
+          "url_path": "enricoros/big-AGI",
+          "html_url": "https://github.com/enricoros/big-AGI",
+          "description": "AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, ..."
+        },
+        {
+          "name": "mochi",
+          "url_path": "genmoai/mochi",
+          "html_url": "https://github.com/genmoai/mochi",
+          "description": "The best OSS video generation models, created by Genmo"
+        },
+        {
+          "name": "Wan-Move",
+          "url_path": "ali-vilab/Wan-Move",
+          "html_url": "https://github.com/ali-vilab/Wan-Move",
+          "description": "[NeurIPS 2025] Wan-Move: Motion-controllable Video Generation via Latent Trajectory Guidance"
+        },
+        {
+          "name": "FastVideo",
+          "url_path": "hao-ai-lab/FastVideo",
+          "html_url": "https://github.com/hao-ai-lab/FastVideo",
+          "description": "A unified inference and post-training framework for accelerated video generation."
+        },
+        {
+          "name": "peinture",
+          "url_path": "Amery2010/peinture",
+          "html_url": "https://github.com/Amery2010/peinture",
+          "description": "A general-purpose AI image generation framework that supports Hugging Face, Gitee, Model Scope, and more."
+        },
+        {
+          "name": "SwarmUI",
+          "url_path": "mcmonkeyprojects/SwarmUI",
+          "html_url": "https://github.com/mcmonkeyprojects/SwarmUI",
+          "description": "SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility."
+        },
+        {
+          "name": "fast-stable-diffusion",
+          "url_path": "TheLastBen/fast-stable-diffusion",
+          "html_url": "https://github.com/TheLastBen/fast-stable-diffusion",
+          "description": "fast-stable-diffusion + DreamBooth"
+        },
+        {
+          "name": "HunyuanVideo-Foley",
+          "url_path": "Tencent-Hunyuan/HunyuanVideo-Foley",
+          "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley",
+          "description": "HunyuanVideo-Foley: Multimodal Diffusion with Representation Alignment for High-Fidelity Foley Audio Generation."
+        },
+        {
+          "name": "stable-diffusion.cpp",
+          "url_path": "leejet/stable-diffusion.cpp",
+          "html_url": "https://github.com/leejet/stable-diffusion.cpp",
+          "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++"
+        },
+        {
+          "name": "sygil-webui",
+          "url_path": "Sygil-Dev/sygil-webui",
+          "html_url": "https://github.com/Sygil-Dev/sygil-webui",
+          "description": "Stable Diffusion web UI"
+        },
+        {
+          "name": "LightX2V",
+          "url_path": "ModelTC/LightX2V",
+          "html_url": "https://github.com/ModelTC/LightX2V",
+          "description": "Light Image Video Generation Inference Framework"
+        },
+        {
+          "name": "StableAvatar",
+          "url_path": "Francis-Rings/StableAvatar",
+          "html_url": "https://github.com/Francis-Rings/StableAvatar",
+          "description": "We present StableAvatar, the first end-to-end video diffusion transformer, which synthesizes infinite-length high-quality audio-driven avatar videos without any post-processing, conditioned on a refer..."
+        },
+        {
+          "name": "Awesome-Video-Diffusion",
+          "url_path": "showlab/Awesome-Video-Diffusion",
+          "html_url": "https://github.com/showlab/Awesome-Video-Diffusion",
+          "description": "A curated list of recent diffusion models for video generation, editing, and various other applications."
+        },
+        {
+          "name": "NeMo-Retriever",
+          "url_path": "NVIDIA/NeMo-Retriever",
+          "html_url": "https://github.com/NVIDIA/NeMo-Retriever",
+          "description": "NeMo Retriever Library is a scalable, performance-oriented document content and metadata extraction microservice. NeMo Retriever extraction uses specialized NVIDIA NIM microservices to find, contextua..."
+        },
+        {
+          "name": "AI-Youtube-Shorts-Generator",
+          "url_path": "SamurAIGPT/AI-Youtube-Shorts-Generator",
+          "html_url": "https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator",
+          "description": "A python tool that uses GPT-4, FFmpeg, and OpenCV to automatically analyze videos, extract the most interesting sections, and crop them for an improved viewing experience."
+        },
+        {
+          "name": "Awesome-Prompt-Engineering",
+          "url_path": "promptslab/Awesome-Prompt-Engineering",
+          "html_url": "https://github.com/promptslab/Awesome-Prompt-Engineering",
+          "description": "This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc "
         }
       ]
     },
@@ -952,16 +1354,424 @@
       "description": "ML/NLP frameworks, agent platforms, research-grade core libraries",
       "repos": [
         {
-          "name": "transformers",
-          "url_path": "huggingface/transformers",
-          "html_url": "https://github.com/huggingface/transformers",
-          "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+          "name": "superpowers",
+          "url_path": "obra/superpowers",
+          "html_url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works."
+        },
+        {
+          "name": "Open-AutoGLM",
+          "url_path": "zai-org/Open-AutoGLM",
+          "html_url": "https://github.com/zai-org/Open-AutoGLM",
+          "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone"
+        },
+        {
+          "name": "hive",
+          "url_path": "aden-hive/hive",
+          "html_url": "https://github.com/aden-hive/hive",
+          "description": "Outcome driven agent development framework that evolves"
         },
         {
           "name": "langchain",
           "url_path": "langchain-ai/langchain",
           "html_url": "https://github.com/langchain-ai/langchain",
           "description": "The agent engineering platform"
+        },
+        {
+          "name": "TradingAgents",
+          "url_path": "TauricResearch/TradingAgents",
+          "html_url": "https://github.com/TauricResearch/TradingAgents",
+          "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+        },
+        {
+          "name": "MetaGPT",
+          "url_path": "FoundationAgents/MetaGPT",
+          "html_url": "https://github.com/FoundationAgents/MetaGPT",
+          "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming"
+        },
+        {
+          "name": "autogen",
+          "url_path": "microsoft/autogen",
+          "html_url": "https://github.com/microsoft/autogen",
+          "description": "A programming framework for agentic AI"
+        },
+        {
+          "name": "WeKnora",
+          "url_path": "Tencent/WeKnora",
+          "html_url": "https://github.com/Tencent/WeKnora",
+          "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm."
+        },
+        {
+          "name": "transformers",
+          "url_path": "huggingface/transformers",
+          "html_url": "https://github.com/huggingface/transformers",
+          "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+        },
+        {
+          "name": "Edit-Banana",
+          "url_path": "BIT-DataLab/Edit-Banana",
+          "html_url": "https://github.com/BIT-DataLab/Edit-Banana",
+          "description": "Edit Banana: A framework for converting statistical formats into editable."
+        },
+        {
+          "name": "12-factor-agents",
+          "url_path": "humanlayer/12-factor-agents",
+          "html_url": "https://github.com/humanlayer/12-factor-agents",
+          "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?"
+        },
+        {
+          "name": "openai-agents-python",
+          "url_path": "openai/openai-agents-python",
+          "html_url": "https://github.com/openai/openai-agents-python",
+          "description": "A lightweight, powerful framework for multi-agent workflows"
+        },
+        {
+          "name": "crewAI",
+          "url_path": "crewAIInc/crewAI",
+          "html_url": "https://github.com/crewAIInc/crewAI",
+          "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+        },
+        {
+          "name": "tensorflow",
+          "url_path": "tensorflow/tensorflow",
+          "html_url": "https://github.com/tensorflow/tensorflow",
+          "description": "An Open Source Machine Learning Framework for Everyone"
+        },
+        {
+          "name": "pathway",
+          "url_path": "pathwaycom/pathway",
+          "html_url": "https://github.com/pathwaycom/pathway",
+          "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG."
+        },
+        {
+          "name": "BitNet",
+          "url_path": "microsoft/BitNet",
+          "html_url": "https://github.com/microsoft/BitNet",
+          "description": "Official inference framework for 1-bit LLMs"
+        },
+        {
+          "name": "llama_index",
+          "url_path": "run-llama/llama_index",
+          "html_url": "https://github.com/run-llama/llama_index",
+          "description": "LlamaIndex is the leading document agent and OCR platform"
+        },
+        {
+          "name": "mastra",
+          "url_path": "mastra-ai/mastra",
+          "html_url": "https://github.com/mastra-ai/mastra",
+          "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack."
+        },
+        {
+          "name": "Product-Manager-Skills",
+          "url_path": "deanpeters/Product-Manager-Skills",
+          "html_url": "https://github.com/deanpeters/Product-Manager-Skills",
+          "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents."
+        },
+        {
+          "name": "sglang",
+          "url_path": "sgl-project/sglang",
+          "html_url": "https://github.com/sgl-project/sglang",
+          "description": "SGLang is a high-performance serving framework for large language models and multimodal models."
+        },
+        {
+          "name": "eliza",
+          "url_path": "elizaOS/eliza",
+          "html_url": "https://github.com/elizaOS/eliza",
+          "description": "Autonomous agents for everyone"
+        },
+        {
+          "name": "openakita",
+          "url_path": "openakita/openakita",
+          "html_url": "https://github.com/openakita/openakita",
+          "description": "An open-source AI assistant framework with skills and agent architecture"
+        },
+        {
+          "name": "RagaAI-Catalyst",
+          "url_path": "raga-ai-hub/RagaAI-Catalyst",
+          "html_url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+          "description": "Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging multi-agentic system, self-hosted dashboard and advanced anal..."
+        },
+        {
+          "name": "ktransformers",
+          "url_path": "kvcache-ai/ktransformers",
+          "html_url": "https://github.com/kvcache-ai/ktransformers",
+          "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations"
+        },
+        {
+          "name": "mcp-use",
+          "url_path": "mcp-use/mcp-use",
+          "html_url": "https://github.com/mcp-use/mcp-use",
+          "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents."
+        },
+        {
+          "name": "langgraph",
+          "url_path": "langchain-ai/langgraph",
+          "html_url": "https://github.com/langchain-ai/langgraph",
+          "description": "Build resilient language agents as graphs."
+        },
+        {
+          "name": "Infographic",
+          "url_path": "antvis/Infographic",
+          "html_url": "https://github.com/antvis/Infographic",
+          "description": "🦋 An Infographic Generation and Rendering Framework, bring words to life with AI!"
+        },
+        {
+          "name": "agent-zero",
+          "url_path": "agent0ai/agent-zero",
+          "html_url": "https://github.com/agent0ai/agent-zero",
+          "description": "Agent Zero AI framework"
+        },
+        {
+          "name": "agent-framework",
+          "url_path": "microsoft/agent-framework",
+          "html_url": "https://github.com/microsoft/agent-framework",
+          "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+        },
+        {
+          "name": "pydantic-ai",
+          "url_path": "pydantic/pydantic-ai",
+          "html_url": "https://github.com/pydantic/pydantic-ai",
+          "description": "GenAI Agent Framework, the Pydantic way"
+        },
+        {
+          "name": "parlant",
+          "url_path": "emcie-co/parlant",
+          "html_url": "https://github.com/emcie-co/parlant",
+          "description": "The conversational control layer for customer-facing AI agents - Parlant is a context-engineering framework optimized for controlling customer interactions."
+        },
+        {
+          "name": "PocketFlow",
+          "url_path": "The-Pocket/PocketFlow",
+          "html_url": "https://github.com/The-Pocket/PocketFlow",
+          "description": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!"
+        },
+        {
+          "name": "audiocraft",
+          "url_path": "facebookresearch/audiocraft",
+          "html_url": "https://github.com/facebookresearch/audiocraft",
+          "description": "Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable mu..."
+        },
+        {
+          "name": "youtu-agent",
+          "url_path": "TencentCloudADP/youtu-agent",
+          "html_url": "https://github.com/TencentCloudADP/youtu-agent",
+          "description": "A simple yet powerful agent framework that delivers with open-source models"
+        },
+        {
+          "name": "redamon",
+          "url_path": "samugit83/redamon",
+          "html_url": "https://github.com/samugit83/redamon",
+          "description": "An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention."
+        },
+        {
+          "name": "eino",
+          "url_path": "cloudwego/eino",
+          "html_url": "https://github.com/cloudwego/eino",
+          "description": "The ultimate LLM/AI application development framework in Go."
+        },
+        {
+          "name": "AutoAgent",
+          "url_path": "HKUDS/AutoAgent",
+          "html_url": "https://github.com/HKUDS/AutoAgent",
+          "description": "\"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework\""
+        },
+        {
+          "name": "cai",
+          "url_path": "aliasrobotics/cai",
+          "html_url": "https://github.com/aliasrobotics/cai",
+          "description": "Cybersecurity AI (CAI), the framework for AI Security"
+        },
+        {
+          "name": "voltagent",
+          "url_path": "VoltAgent/voltagent",
+          "html_url": "https://github.com/VoltAgent/voltagent",
+          "description": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework"
+        },
+        {
+          "name": "Agent-S",
+          "url_path": "simular-ai/Agent-S",
+          "html_url": "https://github.com/simular-ai/Agent-S",
+          "description": "Agent S: an open agentic framework that uses computers like a human"
+        },
+        {
+          "name": "DeepSpeed",
+          "url_path": "deepspeedai/DeepSpeed",
+          "html_url": "https://github.com/deepspeedai/DeepSpeed",
+          "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+        },
+        {
+          "name": "slime",
+          "url_path": "THUDM/slime",
+          "html_url": "https://github.com/THUDM/slime",
+          "description": "slime is an LLM post-training framework for RL Scaling."
+        },
+        {
+          "name": "DB-GPT",
+          "url_path": "eosphoros-ai/DB-GPT",
+          "html_url": "https://github.com/eosphoros-ai/DB-GPT",
+          "description": "AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents"
+        },
+        {
+          "name": "cocoindex",
+          "url_path": "cocoindex-io/cocoindex",
+          "html_url": "https://github.com/cocoindex-io/cocoindex",
+          "description": "Data transformation framework for AI. Ultra performant, with incremental processing.  🌟 Star if you like it!"
+        },
+        {
+          "name": "awesome-machine-learning",
+          "url_path": "josephmisiti/awesome-machine-learning",
+          "html_url": "https://github.com/josephmisiti/awesome-machine-learning",
+          "description": "A curated list of awesome Machine Learning frameworks, libraries and software."
+        },
+        {
+          "name": "ROMA",
+          "url_path": "sentient-agi/ROMA",
+          "html_url": "https://github.com/sentient-agi/ROMA",
+          "description": "Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems."
+        },
+        {
+          "name": "llmware",
+          "url_path": "llmware-ai/llmware",
+          "html_url": "https://github.com/llmware-ai/llmware",
+          "description": "Unified framework for building enterprise RAG pipelines with small, specialized models"
+        },
+        {
+          "name": "ten-framework",
+          "url_path": "TEN-framework/ten-framework",
+          "html_url": "https://github.com/TEN-framework/ten-framework",
+          "description": " Open-source framework for conversational voice AI agents"
+        },
+        {
+          "name": "KAG",
+          "url_path": "OpenSPG/KAG",
+          "html_url": "https://github.com/OpenSPG/KAG",
+          "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge base..."
+        },
+        {
+          "name": "spring-ai-alibaba",
+          "url_path": "alibaba/spring-ai-alibaba",
+          "html_url": "https://github.com/alibaba/spring-ai-alibaba",
+          "description": "Agentic AI Framework for Java Developers"
+        },
+        {
+          "name": "infiAgent",
+          "url_path": "polyuiislab/infiAgent",
+          "html_url": "https://github.com/polyuiislab/infiAgent",
+          "description": "Build your own Cowork, AI Scientist and other SoTA Agents just by editing config files. Support anthropic skills. An infinite-horizon agent framework designed for long-running, complex tasks."
+        },
+        {
+          "name": "evals",
+          "url_path": "openai/evals",
+          "html_url": "https://github.com/openai/evals",
+          "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks."
+        },
+        {
+          "name": "Qwen-Agent",
+          "url_path": "QwenLM/Qwen-Agent",
+          "html_url": "https://github.com/QwenLM/Qwen-Agent",
+          "description": "Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc."
+        },
+        {
+          "name": "camel",
+          "url_path": "camel-ai/camel",
+          "html_url": "https://github.com/camel-ai/camel",
+          "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org"
+        },
+        {
+          "name": "deepeval",
+          "url_path": "confident-ai/deepeval",
+          "html_url": "https://github.com/confident-ai/deepeval",
+          "description": "The LLM Evaluation Framework"
+        },
+        {
+          "name": "cactus",
+          "url_path": "cactus-compute/cactus",
+          "html_url": "https://github.com/cactus-compute/cactus",
+          "description": "Low-latency AI engine for mobile devices & wearables"
+        },
+        {
+          "name": "claude-forge",
+          "url_path": "sangrokjung/claude-forge",
+          "html_url": "https://github.com/sangrokjung/claude-forge",
+          "description": "Supercharge Claude Code with 11 AI agents, 36 commands & 15 skills — the claude-code plugin framework inspired by oh-my-zsh. 6-layer security hooks included. 5-min install."
+        },
+        {
+          "name": "UltraRAG",
+          "url_path": "OpenBMB/UltraRAG",
+          "html_url": "https://github.com/OpenBMB/UltraRAG",
+          "description": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines"
+        },
+        {
+          "name": "ai-engineering-toolkit",
+          "url_path": "Sumanth077/ai-engineering-toolkit",
+          "html_url": "https://github.com/Sumanth077/ai-engineering-toolkit",
+          "description": "A curated list of 100+ libraries and frameworks for AI engineers building with LLMs"
+        },
+        {
+          "name": "agent-squad",
+          "url_path": "awslabs/agent-squad",
+          "html_url": "https://github.com/awslabs/agent-squad",
+          "description": "Flexible and powerful framework for managing multiple AI agents and handling complex conversations"
+        },
+        {
+          "name": "miroflow",
+          "url_path": "MiroMindAI/miroflow",
+          "html_url": "https://github.com/MiroMindAI/miroflow",
+          "description": "MiroFlow is an agent framework that enables tool-use agent tasks, featuring a reproducible GAIA score of 82.4%."
+        },
+        {
+          "name": "EasyR1",
+          "url_path": "hiyouga/EasyR1",
+          "html_url": "https://github.com/hiyouga/EasyR1",
+          "description": "EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework based on veRL"
+        },
+        {
+          "name": "koog",
+          "url_path": "JetBrains/koog",
+          "html_url": "https://github.com/JetBrains/koog",
+          "description": "Koog is the official Kotlin framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser ..."
+        },
+        {
+          "name": "Upsonic",
+          "url_path": "Upsonic/Upsonic",
+          "html_url": "https://github.com/Upsonic/Upsonic",
+          "description": "Agent Framework For Fintech and Banks"
+        },
+        {
+          "name": "OpenAgentsControl",
+          "url_path": "darrenhinde/OpenAgentsControl",
+          "html_url": "https://github.com/darrenhinde/OpenAgentsControl",
+          "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built f..."
+        },
+        {
+          "name": "alphora",
+          "url_path": "opencmit/alphora",
+          "html_url": "https://github.com/opencmit/alphora",
+          "description": "A Production-Ready Framework for Building Composable AI Agents"
+        },
+        {
+          "name": "browser-agent",
+          "url_path": "magnitudedev/browser-agent",
+          "html_url": "https://github.com/magnitudedev/browser-agent",
+          "description": "Open-source, vision-first browser agent"
+        },
+        {
+          "name": "langchain4j",
+          "url_path": "langchain4j/langchain4j",
+          "html_url": "https://github.com/langchain4j/langchain4j",
+          "description": "LangChain4j is an open-source Java library that simplifies the integration of LLMs into Java applications through a unified API, providing access to popular LLMs and vector databases. It makes impleme..."
+        },
+        {
+          "name": "DeepResearchAgent",
+          "url_path": "SkyworkAI/DeepResearchAgent",
+          "html_url": "https://github.com/SkyworkAI/DeepResearchAgent",
+          "description": "DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordi..."
+        },
+        {
+          "name": "agents",
+          "url_path": "livekit/agents",
+          "html_url": "https://github.com/livekit/agents",
+          "description": "A framework for building realtime voice AI agents 🤖🎙️📹 "
         }
       ]
     }
