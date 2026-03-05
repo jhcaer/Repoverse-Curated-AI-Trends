@@ -42,7 +42,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/vllm-project_vllm.svg" alt="vllm stats" width="400">
     </td>
   </tr>
@@ -58,7 +57,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/ray-project_ray.svg" alt="ray stats" width="400">
     </td>
   </tr>
@@ -74,7 +72,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/labring_FastGPT.svg" alt="FastGPT stats" width="400">
     </td>
   </tr>
@@ -90,7 +87,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/sgl-project_sglang.svg" alt="sglang stats" width="400">
     </td>
   </tr>
@@ -106,7 +102,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/mlc-ai_mlc-llm.svg" alt="mlc-llm stats" width="400">
     </td>
   </tr>
@@ -122,7 +117,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/google_adk-python.svg" alt="adk-python stats" width="400">
     </td>
   </tr>
@@ -138,7 +132,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/botpress_botpress.svg" alt="botpress stats" width="400">
     </td>
   </tr>
@@ -154,7 +147,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/Lightning-AI_litgpt.svg" alt="litgpt stats" width="400">
     </td>
   </tr>
@@ -170,7 +162,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/NVIDIA_TensorRT-LLM.svg" alt="TensorRT-LLM stats" width="400">
     </td>
   </tr>
@@ -186,7 +177,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/microsoft_promptflow.svg" alt="promptflow stats" width="400">
     </td>
   </tr>
@@ -202,7 +192,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/Netflix_metaflow.svg" alt="metaflow stats" width="400">
     </td>
   </tr>
@@ -218,7 +207,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/krillinai_KrillinAI.svg" alt="KrillinAI stats" width="400">
     </td>
   </tr>
@@ -234,7 +222,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/xorbitsai_inference.svg" alt="inference stats" width="400">
     </td>
   </tr>
@@ -250,7 +237,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/oumi-ai_oumi.svg" alt="oumi stats" width="400">
     </td>
   </tr>
@@ -266,7 +252,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_C++.svg" alt="C++ badge" width="140">
       <img src="GitTrendHub/assets/Tiiny-AI_PowerInfer.svg" alt="PowerInfer stats" width="400">
     </td>
   </tr>
@@ -282,7 +267,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Kotlin.svg" alt="Kotlin badge" width="140">
       <img src="GitTrendHub/assets/NexaAI_nexa-sdk.svg" alt="nexa-sdk stats" width="400">
     </td>
   </tr>
@@ -298,7 +282,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/InternLM_lmdeploy.svg" alt="lmdeploy stats" width="400">
     </td>
   </tr>
@@ -314,7 +297,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/google_adk-go.svg" alt="adk-go stats" width="400">
     </td>
   </tr>
@@ -330,7 +312,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Jupyter_Notebook.svg" alt="Jupyter Notebook badge" width="140">
       <img src="GitTrendHub/assets/julep-ai_julep.svg" alt="julep stats" width="400">
     </td>
   </tr>
@@ -346,7 +327,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/Zipstack_unstract.svg" alt="unstract stats" width="400">
     </td>
   </tr>
@@ -362,7 +342,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/PacktPublishing_LLM-Engineers-Handbook.svg" alt="LLM-Engineers-Handbook stats" width="400">
     </td>
   </tr>
@@ -378,7 +357,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Swift.svg" alt="Swift badge" width="140">
       <img src="GitTrendHub/assets/osaurus-ai_osaurus.svg" alt="osaurus stats" width="400">
     </td>
   </tr>
@@ -394,7 +372,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/ModelTC_LightLLM.svg" alt="LightLLM stats" width="400">
     </td>
   </tr>
@@ -410,7 +387,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/PaddlePaddle_FastDeploy.svg" alt="FastDeploy stats" width="400">
     </td>
   </tr>
@@ -426,7 +402,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/NVIDIA_TransformerEngine.svg" alt="TransformerEngine stats" width="400">
     </td>
   </tr>
@@ -442,7 +417,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/Intelligent-Internet_ii-agent.svg" alt="ii-agent stats" width="400">
     </td>
   </tr>
@@ -458,7 +432,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/vllm-project_llm-compressor.svg" alt="llm-compressor stats" width="400">
     </td>
   </tr>
@@ -474,7 +447,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/michaelfeil_infinity.svg" alt="infinity stats" width="400">
     </td>
   </tr>
@@ -490,7 +462,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/OpenMind_OM1.svg" alt="OM1 stats" width="400">
     </td>
   </tr>
@@ -506,7 +477,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/containers_ramalama.svg" alt="ramalama stats" width="400">
     </td>
   </tr>
@@ -522,7 +492,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/xdit-project_xDiT.svg" alt="xDiT stats" width="400">
     </td>
   </tr>
@@ -538,7 +507,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_JavaScript.svg" alt="JavaScript badge" width="140">
       <img src="GitTrendHub/assets/langchain-ai_langserve.svg" alt="langserve stats" width="400">
     </td>
   </tr>
@@ -554,7 +522,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/NVIDIA_Model-Optimizer.svg" alt="Model-Optimizer stats" width="400">
     </td>
   </tr>
@@ -570,7 +537,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/run-llama_llama_deploy.svg" alt="llama_deploy stats" width="400">
     </td>
   </tr>
@@ -586,7 +552,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/nottelabs_notte.svg" alt="notte stats" width="400">
     </td>
   </tr>
@@ -602,7 +567,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Java.svg" alt="Java badge" width="140">
       <img src="GitTrendHub/assets/google_adk-java.svg" alt="adk-java stats" width="400">
     </td>
   </tr>
@@ -618,7 +582,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_YARA.svg" alt="YARA badge" width="140">
       <img src="GitTrendHub/assets/BlackSnufkin_LitterBox.svg" alt="LitterBox stats" width="400">
     </td>
   </tr>
@@ -634,7 +597,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/SmythOS_sre.svg" alt="sre stats" width="400">
     </td>
   </tr>
@@ -650,7 +612,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/GradientHQ_parallax.svg" alt="parallax stats" width="400">
     </td>
   </tr>
@@ -666,7 +627,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/google_adk-js.svg" alt="adk-js stats" width="400">
     </td>
   </tr>
@@ -682,7 +642,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/docker_compose-for-agents.svg" alt="compose-for-agents stats" width="400">
     </td>
   </tr>
@@ -698,7 +657,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Jupyter_Notebook.svg" alt="Jupyter Notebook badge" width="140">
       <img src="GitTrendHub/assets/xpander-ai_xpander.ai.svg" alt="xpander.ai stats" width="400">
     </td>
   </tr>
@@ -714,7 +672,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Shell.svg" alt="Shell badge" width="140">
       <img src="GitTrendHub/assets/kossakovsky_n8n-install.svg" alt="n8n-install stats" width="400">
     </td>
   </tr>
@@ -730,7 +687,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/sgl-project_SpecForge.svg" alt="SpecForge stats" width="400">
     </td>
   </tr>
@@ -746,7 +702,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/tile-ai_TileRT.svg" alt="TileRT stats" width="400">
     </td>
   </tr>
@@ -762,7 +717,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/Haohao-end_LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents.svg" alt="LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents stats" width="400">
     </td>
   </tr>
@@ -778,7 +732,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/alirezarezvani_claude-code-skill-factory.svg" alt="claude-code-skill-factory stats" width="400">
     </td>
   </tr>
@@ -794,7 +747,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Cuda.svg" alt="Cuda badge" width="140">
       <img src="GitTrendHub/assets/yassa9_qwen600.svg" alt="qwen600 stats" width="400">
     </td>
   </tr>
@@ -810,7 +762,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/waybarrios_vllm-mlx.svg" alt="vllm-mlx stats" width="400">
     </td>
   </tr>
@@ -826,7 +777,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_C#.svg" alt="C# badge" width="140">
       <img src="GitTrendHub/assets/milanm_AutoGrad-Engine.svg" alt="AutoGrad-Engine stats" width="400">
     </td>
   </tr>
@@ -848,7 +798,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/langchain-ai_langchain.svg" alt="langchain stats" width="400">
     </td>
   </tr>
@@ -864,7 +813,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/FoundationAgents_MetaGPT.svg" alt="MetaGPT stats" width="400">
     </td>
   </tr>
@@ -880,7 +828,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/cline_cline.svg" alt="cline stats" width="400">
     </td>
   </tr>
@@ -896,7 +843,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/microsoft_autogen.svg" alt="autogen stats" width="400">
     </td>
   </tr>
@@ -912,7 +858,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/crewAIInc_crewAI.svg" alt="crewAI stats" width="400">
     </td>
   </tr>
@@ -928,7 +873,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/CherryHQ_cherry-studio.svg" alt="cherry-studio stats" width="400">
     </td>
   </tr>
@@ -944,7 +888,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/khoj-ai_khoj.svg" alt="khoj stats" width="400">
     </td>
   </tr>
@@ -960,7 +903,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/wshobson_agents.svg" alt="agents stats" width="400">
     </td>
   </tr>
@@ -976,7 +918,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/langchain-ai_langgraph.svg" alt="langgraph stats" width="400">
     </td>
   </tr>
@@ -992,7 +933,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/assafelovic_gpt-researcher.svg" alt="gpt-researcher stats" width="400">
     </td>
   </tr>
@@ -1008,7 +948,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/Fosowl_agenticSeek.svg" alt="agenticSeek stats" width="400">
     </td>
   </tr>
@@ -1024,7 +963,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/zai-org_Open-AutoGLM.svg" alt="Open-AutoGLM stats" width="400">
     </td>
   </tr>
@@ -1040,7 +978,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/zeroclaw-labs_zeroclaw.svg" alt="zeroclaw stats" width="400">
     </td>
   </tr>
@@ -1056,7 +993,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/mastra-ai_mastra.svg" alt="mastra stats" width="400">
     </td>
   </tr>
@@ -1072,7 +1008,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/openai_openai-agents-python.svg" alt="openai-agents-python stats" width="400">
     </td>
   </tr>
@@ -1088,7 +1023,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/ruvnet_ruflo.svg" alt="ruflo stats" width="400">
     </td>
   </tr>
@@ -1104,7 +1038,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/vercel-labs_agent-browser.svg" alt="agent-browser stats" width="400">
     </td>
   </tr>
@@ -1120,7 +1053,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/humanlayer_12-factor-agents.svg" alt="12-factor-agents stats" width="400">
     </td>
   </tr>
@@ -1136,7 +1068,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/emcie-co_parlant.svg" alt="parlant stats" width="400">
     </td>
   </tr>
@@ -1152,7 +1083,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/elizaOS_eliza.svg" alt="eliza stats" width="400">
     </td>
   </tr>
@@ -1168,7 +1098,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/virattt_dexter.svg" alt="dexter stats" width="400">
     </td>
   </tr>
@@ -1184,7 +1113,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/raga-ai-hub_RagaAI-Catalyst.svg" alt="RagaAI-Catalyst stats" width="400">
     </td>
   </tr>
@@ -1200,7 +1128,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/agent0ai_agent-zero.svg" alt="agent-zero stats" width="400">
     </td>
   </tr>
@@ -1216,7 +1143,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/pydantic_pydantic-ai.svg" alt="pydantic-ai stats" width="400">
     </td>
   </tr>
@@ -1232,7 +1158,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/Tencent_WeKnora.svg" alt="WeKnora stats" width="400">
     </td>
   </tr>
@@ -1248,7 +1173,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/nanobrowser_nanobrowser.svg" alt="nanobrowser stats" width="400">
     </td>
   </tr>
@@ -1264,7 +1188,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/snarktank_ralph.svg" alt="ralph stats" width="400">
     </td>
   </tr>
@@ -1280,7 +1203,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Java.svg" alt="Java badge" width="140">
       <img src="GitTrendHub/assets/iflytek_astron-agent.svg" alt="astron-agent stats" width="400">
     </td>
   </tr>
@@ -1296,7 +1218,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/mcp-use_mcp-use.svg" alt="mcp-use stats" width="400">
     </td>
   </tr>
@@ -1312,7 +1233,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/vxcontrol_pentagi.svg" alt="pentagi stats" width="400">
     </td>
   </tr>
@@ -1328,7 +1248,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/Yeachan-Heo_oh-my-claudecode.svg" alt="oh-my-claudecode stats" width="400">
     </td>
   </tr>
@@ -1344,7 +1263,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/microsoft_agent-framework.svg" alt="agent-framework stats" width="400">
     </td>
   </tr>
@@ -1360,7 +1278,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/0x4m4_hexstrike-ai.svg" alt="hexstrike-ai stats" width="400">
     </td>
   </tr>
@@ -1376,7 +1293,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/VoltAgent_voltagent.svg" alt="voltagent stats" width="400">
     </td>
   </tr>
@@ -1392,7 +1308,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/MemMachine_MemMachine.svg" alt="MemMachine stats" width="400">
     </td>
   </tr>
@@ -1408,7 +1323,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/ruc-datalab_DeepAnalyze.svg" alt="DeepAnalyze stats" width="400">
     </td>
   </tr>
@@ -1424,7 +1338,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/ComposioHQ_agent-orchestrator.svg" alt="agent-orchestrator stats" width="400">
     </td>
   </tr>
@@ -1440,7 +1353,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/VibiumDev_vibium.svg" alt="vibium stats" width="400">
     </td>
   </tr>
@@ -1456,7 +1368,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/michaelshimeles_ralphy.svg" alt="ralphy stats" width="400">
     </td>
   </tr>
@@ -1472,7 +1383,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Elixir.svg" alt="Elixir badge" width="140">
       <img src="GitTrendHub/assets/openai_symphony.svg" alt="symphony stats" width="400">
     </td>
   </tr>
@@ -1488,7 +1398,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/abhi1693_openclaw-mission-control.svg" alt="openclaw-mission-control stats" width="400">
     </td>
   </tr>
@@ -1504,7 +1413,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/samugit83_redamon.svg" alt="redamon stats" width="400">
     </td>
   </tr>
@@ -1520,7 +1428,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/cft0808_edict.svg" alt="edict stats" width="400">
     </td>
   </tr>
@@ -1536,7 +1443,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/crshdn_mission-control.svg" alt="mission-control stats" width="400">
     </td>
   </tr>
@@ -1552,7 +1458,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Shell.svg" alt="Shell badge" width="140">
       <img src="GitTrendHub/assets/yohey-w_multi-agent-shogun.svg" alt="multi-agent-shogun stats" width="400">
     </td>
   </tr>
@@ -1568,7 +1473,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Shell.svg" alt="Shell badge" width="140">
       <img src="GitTrendHub/assets/deanpeters_Product-Manager-Skills.svg" alt="Product-Manager-Skills stats" width="400">
     </td>
   </tr>
@@ -1584,7 +1488,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_JavaScript.svg" alt="JavaScript badge" width="140">
       <img src="GitTrendHub/assets/stephengpope_thepopebot.svg" alt="thepopebot stats" width="400">
     </td>
   </tr>
@@ -1600,7 +1503,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/openakita_openakita.svg" alt="openakita stats" width="400">
     </td>
   </tr>
@@ -1616,7 +1518,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/ygwyg_MAHORAGA.svg" alt="MAHORAGA stats" width="400">
     </td>
   </tr>
@@ -1632,7 +1533,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/jayminwest_overstory.svg" alt="overstory stats" width="400">
     </td>
   </tr>
@@ -1654,7 +1554,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_N_A.svg" alt="N/A badge" width="140">
       <img src="GitTrendHub/assets/warpdotdev_Warp.svg" alt="Warp stats" width="400">
     </td>
   </tr>
@@ -1670,7 +1569,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/farion1231_cc-switch.svg" alt="cc-switch stats" width="400">
     </td>
   </tr>
@@ -1686,7 +1584,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/plandex-ai_plandex.svg" alt="plandex stats" width="400">
     </td>
   </tr>
@@ -1702,7 +1599,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/sigoden_aichat.svg" alt="aichat stats" width="400">
     </td>
   </tr>
@@ -1718,7 +1614,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/GoogleCloudPlatform_kubectl-ai.svg" alt="kubectl-ai stats" width="400">
     </td>
   </tr>
@@ -1734,7 +1629,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/Maciek-roboblog_Claude-Code-Usage-Monitor.svg" alt="Claude-Code-Usage-Monitor stats" width="400">
     </td>
   </tr>
@@ -1750,7 +1644,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/purocean_yn.svg" alt="yn stats" width="400">
     </td>
   </tr>
@@ -1766,7 +1659,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/smtg-ai_claude-squad.svg" alt="claude-squad stats" width="400">
     </td>
   </tr>
@@ -1782,7 +1674,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/superset-sh_superset.svg" alt="superset stats" width="400">
     </td>
   </tr>
@@ -1798,7 +1689,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Swift.svg" alt="Swift badge" width="140">
       <img src="GitTrendHub/assets/manaflow-ai_cmux.svg" alt="cmux stats" width="400">
     </td>
   </tr>
@@ -1814,7 +1704,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_N_A.svg" alt="N/A badge" width="140">
       <img src="GitTrendHub/assets/jamesmurdza_awesome-ai-devtools.svg" alt="awesome-ai-devtools stats" width="400">
     </td>
   </tr>
@@ -1830,7 +1719,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/smallcloudai_refact.svg" alt="refact stats" width="400">
     </td>
   </tr>
@@ -1846,7 +1734,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Shell.svg" alt="Shell badge" width="140">
       <img src="GitTrendHub/assets/PeonPing_peon-ping.svg" alt="peon-ping stats" width="400">
     </td>
   </tr>
@@ -1862,7 +1749,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_HTML.svg" alt="HTML badge" width="140">
       <img src="GitTrendHub/assets/cirosantilli_china-dictatorship.svg" alt="china-dictatorship stats" width="400">
     </td>
   </tr>
@@ -1878,7 +1764,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/tw93_Kaku.svg" alt="Kaku stats" width="400">
     </td>
   </tr>
@@ -1894,7 +1779,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/generalaction_emdash.svg" alt="emdash stats" width="400">
     </td>
   </tr>
@@ -1910,7 +1794,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_N_A.svg" alt="N/A badge" width="140">
       <img src="GitTrendHub/assets/yaolifeng0629_Awesome-independent-tools.svg" alt="Awesome-independent-tools stats" width="400">
     </td>
   </tr>
@@ -1926,7 +1809,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/jamubc_gemini-mcp-tool.svg" alt="gemini-mcp-tool stats" width="400">
     </td>
   </tr>
@@ -1942,7 +1824,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Lua.svg" alt="Lua badge" width="140">
       <img src="GitTrendHub/assets/greggh_claude-code.nvim.svg" alt="claude-code.nvim stats" width="400">
     </td>
   </tr>
@@ -1958,7 +1839,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/microsoft_responsible-ai-toolbox.svg" alt="responsible-ai-toolbox stats" width="400">
     </td>
   </tr>
@@ -1974,7 +1854,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/can1357_oh-my-pi.svg" alt="oh-my-pi stats" width="400">
     </td>
   </tr>
@@ -1990,7 +1869,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_N_A.svg" alt="N/A badge" width="140">
       <img src="GitTrendHub/assets/XiaomingX_indie-hacker-tools-plus.svg" alt="indie-hacker-tools-plus stats" width="400">
     </td>
   </tr>
@@ -2006,7 +1884,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/Nano-Collective_nanocoder.svg" alt="nanocoder stats" width="400">
     </td>
   </tr>
@@ -2022,7 +1899,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/asheshgoplani_agent-deck.svg" alt="agent-deck stats" width="400">
     </td>
   </tr>
@@ -2038,7 +1914,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Jupyter_Notebook.svg" alt="Jupyter Notebook badge" width="140">
       <img src="GitTrendHub/assets/cyberark_FuzzyAI.svg" alt="FuzzyAI stats" width="400">
     </td>
   </tr>
@@ -2054,7 +1929,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/CodeGraphContext_CodeGraphContext.svg" alt="CodeGraphContext stats" width="400">
     </td>
   </tr>
@@ -2070,7 +1944,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/SaladDay_cc-switch-cli.svg" alt="cc-switch-cli stats" width="400">
     </td>
   </tr>
@@ -2086,7 +1959,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_N_A.svg" alt="N/A badge" width="140">
       <img src="GitTrendHub/assets/theNetworkChuck_ai-in-the-terminal.svg" alt="ai-in-the-terminal stats" width="400">
     </td>
   </tr>
@@ -2102,7 +1974,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/ClickHouse_mcp-clickhouse.svg" alt="mcp-clickhouse stats" width="400">
     </td>
   </tr>
@@ -2118,7 +1989,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_TypeScript.svg" alt="TypeScript badge" width="140">
       <img src="GitTrendHub/assets/vybestack_llxprt-code.svg" alt="llxprt-code stats" width="400">
     </td>
   </tr>
@@ -2134,7 +2004,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Lua.svg" alt="Lua badge" width="140">
       <img src="GitTrendHub/assets/sudo-tee_opencode.nvim.svg" alt="opencode.nvim stats" width="400">
     </td>
   </tr>
@@ -2150,7 +2019,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/ovh_shai.svg" alt="shai stats" width="400">
     </td>
   </tr>
@@ -2166,7 +2034,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/jonigl_mcp-client-for-ollama.svg" alt="mcp-client-for-ollama stats" width="400">
     </td>
   </tr>
@@ -2182,7 +2049,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/probelabs_probe.svg" alt="probe stats" width="400">
     </td>
   </tr>
@@ -2198,7 +2064,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/harshkedia177_axon.svg" alt="axon stats" width="400">
     </td>
   </tr>
@@ -2214,7 +2079,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Jupyter_Notebook.svg" alt="Jupyter Notebook badge" width="140">
       <img src="GitTrendHub/assets/SPThole_CoexistAI.svg" alt="CoexistAI stats" width="400">
     </td>
   </tr>
@@ -2230,7 +2094,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/vinhnx_VTCode.svg" alt="VTCode stats" width="400">
     </td>
   </tr>
@@ -2246,7 +2109,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_JavaScript.svg" alt="JavaScript badge" width="140">
       <img src="GitTrendHub/assets/0xranx_OpenContext.svg" alt="OpenContext stats" width="400">
     </td>
   </tr>
@@ -2262,7 +2124,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/neiii_bridle.svg" alt="bridle stats" width="400">
     </td>
   </tr>
@@ -2278,7 +2139,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_N_A.svg" alt="N/A badge" width="140">
       <img src="GitTrendHub/assets/CelaDaniel_free-ai-resources-x.svg" alt="free-ai-resources-x stats" width="400">
     </td>
   </tr>
@@ -2294,7 +2154,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_C#.svg" alt="C# badge" width="140">
       <img src="GitTrendHub/assets/shuyu-labs_WebCode.svg" alt="WebCode stats" width="400">
     </td>
   </tr>
@@ -2310,7 +2169,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_N_A.svg" alt="N/A badge" width="140">
       <img src="GitTrendHub/assets/cporter202_ai-agent-tools.svg" alt="ai-agent-tools stats" width="400">
     </td>
   </tr>
@@ -2326,7 +2184,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Go.svg" alt="Go badge" width="140">
       <img src="GitTrendHub/assets/chenhg5_cc-connect.svg" alt="cc-connect stats" width="400">
     </td>
   </tr>
@@ -2342,7 +2199,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/nwiizo_tfmcp.svg" alt="tfmcp stats" width="400">
     </td>
   </tr>
@@ -2358,7 +2214,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_N_A.svg" alt="N/A badge" width="140">
       <img src="GitTrendHub/assets/inmve_awesome-ai-coding-techniques.svg" alt="awesome-ai-coding-techniques stats" width="400">
     </td>
   </tr>
@@ -2374,7 +2229,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/fynnfluegge_agtx.svg" alt="agtx stats" width="400">
     </td>
   </tr>
@@ -2390,7 +2244,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_PHP.svg" alt="PHP badge" width="140">
       <img src="GitTrendHub/assets/context-hub_generator.svg" alt="generator stats" width="400">
     </td>
   </tr>
@@ -2406,7 +2259,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/awslabs_iam-policy-autopilot.svg" alt="iam-policy-autopilot stats" width="400">
     </td>
   </tr>
@@ -2422,7 +2274,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Rust.svg" alt="Rust badge" width="140">
       <img src="GitTrendHub/assets/amrit110_oli.svg" alt="oli stats" width="400">
     </td>
   </tr>
@@ -2438,7 +2289,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/scarletkc_vexor.svg" alt="vexor stats" width="400">
     </td>
   </tr>
@@ -2460,7 +2310,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/AUTOMATIC1111_stable-diffusion-webui.svg" alt="stable-diffusion-webui stats" width="400">
     </td>
   </tr>
@@ -2476,7 +2325,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/comfyanonymous_ComfyUI.svg" alt="ComfyUI stats" width="400">
     </td>
   </tr>
@@ -2492,7 +2340,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/black-forest-labs_flux.svg" alt="flux stats" width="400">
     </td>
   </tr>
@@ -2514,7 +2361,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/huggingface_transformers.svg" alt="transformers stats" width="400">
     </td>
   </tr>
@@ -2530,7 +2376,6 @@
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="GitTrendHub/assets/lang_badges/lang_Python.svg" alt="Python badge" width="140">
       <img src="GitTrendHub/assets/langchain-ai_langchain.svg" alt="langchain stats" width="400">
     </td>
   </tr>
@@ -2586,5 +2431,5 @@ Stay ahead of the curve with these curated AI resources.
 Data is retrieved using the GitHub REST API and GitHub Actions.
 
 <div align="right">
-  <i>✨ Last Generated: March 05, 2026 - 06:08 UTC</i>
+  <i>✨ Last Generated: March 05, 2026 - 06:13 UTC</i>
 </div>

@@ -213,9 +213,6 @@ def generate_markdown(projects_data, base_dir):
     assets_dir = os.path.join(base_dir, "assets")
     if not os.path.exists(assets_dir):
         os.makedirs(assets_dir)
-    badges_dir = os.path.join(assets_dir, "lang_badges")
-    if not os.path.exists(badges_dir):
-        os.makedirs(badges_dir)
     spacer_path = os.path.join(assets_dir, "spacer.png")
     if not os.path.exists(spacer_path):
         generate_transparent_png(spacer_path, width=1, height=1)
@@ -304,14 +301,6 @@ def generate_markdown(projects_data, base_dir):
                 f.write(generate_svg_card(e))
             
             e["svg_asset"] = f"assets/{svg_filename}"
-            lang = e["language"]
-            lang_color = language_color(lang)
-            lang_badge_filename = f"lang_{(lang or 'na').replace(' ', '_').replace('/', '_')}.svg"
-            lang_badge_path = os.path.join(badges_dir, lang_badge_filename)
-            if not os.path.exists(lang_badge_path):
-                with open(lang_badge_path, "w", encoding="utf-8") as f:
-                    f.write(generate_language_badge_svg(lang, lang_color))
-            e["lang_badge"] = f"assets/lang_badges/{lang_badge_filename}"
             enriched_repos.append(e)
             all_enriched_repos.append(e)
             search_index["sections"][-1]["repos"].append({
@@ -335,7 +324,6 @@ def generate_markdown(projects_data, base_dir):
       <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="36">
     </td>
     <td width="42%" valign="top" align="center">
-      <img src="{e['lang_badge']}" alt="{e['language']} badge" width="140">
       <img src="{e['svg_asset']}" alt="{e['name']} stats" width="400">
     </td>
   </tr>
