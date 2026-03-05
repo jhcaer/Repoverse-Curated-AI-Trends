@@ -35,7 +35,7 @@ def parse_stars(val):
     except:
         return 0
 
-def format_desc_fixed(desc, max_chars=180, line_len=60, min_lines=2):
+def format_desc_fixed(desc, max_chars=180, line_len=60, min_lines=1):
     if not desc:
         desc = "No description provided"
     text = desc.replace("\n", " ").strip()
@@ -294,7 +294,7 @@ def generate_markdown(projects_data, base_dir):
                 # FALLBACK: Use last known data if API fails (403 Rate Limit)
                 current_stars = parse_stars(repo.get("last_stars", 0))
                 growth = 0
-                data_status = " <sub>(Vault Mode)</sub>"
+                data_status = ""
                 
             e = {
                 "repo_path": repo["url_path"],
@@ -331,7 +331,7 @@ def generate_markdown(projects_data, base_dir):
         enriched_repos.sort(key=lambda x: x["stars"], reverse=True)
         
         for e in enriched_repos:
-            desc_limited = format_desc_fixed(e['description'], max_chars=180, line_len=60, min_lines=2)
+            desc_limited = format_desc_fixed(e['description'], max_chars=180, line_len=60, min_lines=1)
             section_anchor = e["category_id"]
             card_html = f"""
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -339,9 +339,10 @@ def generate_markdown(projects_data, base_dir):
     <td width="58%" valign="top">
       <h3><a href="{e['html_url']}">{e['name']}</a>{e['status_tag']}</h3>
       <p>{desc_limited}</p>
-      <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="48">
+      <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="140">
     </td>
     <td width="42%" valign="middle" align="center">
+      <img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="180">
       <img src="{e['svg_asset']}" alt="{e['name']} stats" width="400">
     </td>
   </tr>
