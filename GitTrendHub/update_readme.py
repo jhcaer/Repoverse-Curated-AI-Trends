@@ -35,7 +35,7 @@ def parse_stars(val):
     except:
         return 0
 
-def format_desc_fixed(desc, max_chars=180, line_len=60, min_lines=2):
+def format_desc_fixed(desc, max_chars=180, line_len=60, min_lines=3):
     if not desc:
         desc = "No description provided"
     text = desc.replace("\n", " ").strip()
@@ -337,7 +337,7 @@ def generate_markdown(projects_data, base_dir):
 <table width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="58%" valign="top">
-      <h3><a href="{e['html_url']}">{e['name']}</a>{e['status_tag']}</h3>
+      <div><a href="{e['html_url']}"><strong>{e['name']}</strong></a>{e['status_tag']}</div>
       <p>{desc_limited}</p>
     </td>
     <td width="42%" valign="middle" align="center">
