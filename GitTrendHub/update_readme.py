@@ -331,17 +331,14 @@ def generate_markdown(projects_data, base_dir):
         enriched_repos.sort(key=lambda x: x["stars"], reverse=True)
         
         for e in enriched_repos:
-            desc_limited = format_desc_fixed(e['description'], max_chars=180, line_len=60, min_lines=1)
+            desc_limited = format_desc_fixed(e['description'], max_chars=180, line_len=60, min_lines=2)
             section_anchor = e["category_id"]
             card_html = f"""
 <table width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="58%" valign="top">
       <h3><a href="{e['html_url']}">{e['name']}</a>{e['status_tag']}</h3>
-      <table cellpadding="0" cellspacing="0">
-        <tr><td>{desc_limited}</td></tr>
-        <tr><td><img src="GitTrendHub/assets/spacer.png" alt="" width="1" height="26"></td></tr>
-      </table>
+      <p>{desc_limited}</p>
     </td>
     <td width="42%" valign="middle" align="center">
       <img src="{e['svg_asset']}" alt="{e['name']} stats" width="400">
