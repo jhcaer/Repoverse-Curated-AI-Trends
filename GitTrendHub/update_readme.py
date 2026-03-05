@@ -293,7 +293,8 @@ def generate_markdown(projects_data, base_dir):
         title = category_data.get("title", category_key.title())
         section_emoji = extract_leading_emoji(title)
         accent = accent_by_category.get(category_key, "#4dabf7")
-        bar_filename = f"section_bar_{category_key}.png"
+        bar_hash = hashlib.sha1(accent.encode("utf-8")).hexdigest()[:8]
+        bar_filename = f"section_bar_{category_key}_{bar_hash}.png"
         bar_path = os.path.join(assets_dir, bar_filename)
         generate_section_bar_png(bar_path, accent, width=8, height=220)
         bar_asset = f"assets/{bar_filename}"

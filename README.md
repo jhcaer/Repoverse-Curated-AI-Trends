@@ -26,14 +26,12 @@
 | 5 | [🧠 Research & Core Frameworks](#frameworks) | 70 | ML/NLP frameworks, agent platforms, research-grade core libraries |
 
 **Other Sections**
-- [🤝 Community & Participation](#how-to-contribute) — How to contribute, PR guide, community
-- [🌐 AI Resource Navigator](#ai-resource-navigator) — Curated links: trends, news, tool discovery
-- [📝 Data Summary](#data-summary) — Data source and last generated timestamp
-
----
+- 6. [🤝 Community & Participation](#how-to-contribute) — How to contribute, PR guide, community
+- 7. [🌐 AI Resource Navigator](#ai-resource-navigator) — Curated links: trends, news, tool discovery
+- 8. [📝 Data Summary](#data-summary) — Data source and last generated timestamp
 
 <h2 id='llm_engines'>🤖 LLM Engines & Platforms</h2>
-<p><img src="GitTrendHub/assets/section_bar_llm_engines.png" alt="" width="24" height="6"> Section color</p>
+<p><img src="GitTrendHub/assets/section_bar_llm_engines_5419d11c.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -1089,7 +1087,7 @@
 ---
 
 <h2 id='agents'>🛠️ AI Agents & Orchestration</h2>
-<p><img src="GitTrendHub/assets/section_bar_agents.png" alt="" width="24" height="6"> Section color</p>
+<p><img src="GitTrendHub/assets/section_bar_agents_77ed1540.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -2145,7 +2143,7 @@
 ---
 
 <h2 id='cli_tools'>💻 AI-Powered CLI & DevTools</h2>
-<p><img src="GitTrendHub/assets/section_bar_cli_tools.png" alt="" width="24" height="6"> Section color</p>
+<p><img src="GitTrendHub/assets/section_bar_cli_tools_cca3c3ed.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -3201,7 +3199,7 @@
 ---
 
 <h2 id='art_vision'>🎨 Generative Art & Vision</h2>
-<p><img src="GitTrendHub/assets/section_bar_art_vision.png" alt="" width="24" height="6"> Section color</p>
+<p><img src="GitTrendHub/assets/section_bar_art_vision_f7a2db09.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -4677,7 +4675,7 @@
 ---
 
 <h2 id='frameworks'>🧠 Research & Core Frameworks</h2>
-<p><img src="GitTrendHub/assets/section_bar_frameworks.png" alt="" width="24" height="6"> Section color</p>
+<p><img src="GitTrendHub/assets/section_bar_frameworks_492cbab8.png" alt="" width="24" height="6"> Section color</p>
 
 
 <table width="100%" cellpadding="0" cellspacing="0">
@@ -6191,5 +6189,5 @@ Stay ahead of the curve with these curated AI resources.
 Data is retrieved using the GitHub REST API and GitHub Actions.
 
 <div align="right">
-  <i>✨ Last Generated: March 05, 2026 - 18:37 UTC</i>
+  <i>✨ Last Generated: March 05, 2026 - 18:41 UTC</i>
 </div>
