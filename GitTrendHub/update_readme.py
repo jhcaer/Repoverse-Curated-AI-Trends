@@ -3,6 +3,7 @@ import json
 import requests
 import struct
 import zlib
+import hashlib
 from datetime import datetime, timezone
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
@@ -352,11 +353,13 @@ def generate_markdown(projects_data, base_dir):
                 f.write(generate_svg_card(e))
             
             e["svg_asset"] = f"assets/{svg_filename}"
-            title_width = min(560, max(200, 16 * len(e["name"]) + 120))
-            title_filename = f"title_{e['repo_path'].replace('/', '_')}_{category_key}.svg"
+            title_width = min(480, max(140, 14 * len(e["name"]) + 80))
+            title_svg = generate_title_badge_svg(e["name"], accent, width=title_width, height=48)
+            title_hash = hashlib.sha1(title_svg.encode("utf-8")).hexdigest()[:8]
+            title_filename = f"title_{e['repo_path'].replace('/', '_')}_{category_key}_{title_hash}.svg"
             title_path = os.path.join(title_dir, title_filename)
             with open(title_path, "w", encoding="utf-8") as f:
-                f.write(generate_title_badge_svg(e["name"], accent, width=title_width, height=48))
+                f.write(title_svg)
             e["title_badge"] = f"assets/title_badges/{title_filename}"
             enriched_repos.append(e)
             all_enriched_repos.append(e)
