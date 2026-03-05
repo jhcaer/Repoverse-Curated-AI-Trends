@@ -275,7 +275,7 @@ def generate_markdown(projects_data, base_dir):
     }
     # Custom accent for LLM Engines & Platforms
     if "llm_engines" in accent_by_category:
-        accent_by_category["llm_engines"] = "#b5a7ff"  # soft lavender
+        accent_by_category["llm_engines"] = "#f4a7a7"  # soft red
 
     # Build repo -> accents map to handle repos listed in multiple sections
     repo_accents = {}
