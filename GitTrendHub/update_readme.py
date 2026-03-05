@@ -83,15 +83,15 @@ def generate_transparent_png(filepath, width=1, height=1):
     with open(filepath, "wb") as f:
         f.write(png)
 
-def generate_title_badge_svg(text, accent, width=260, height=36):
+def generate_title_badge_svg(text, accent, width=360, height=36):
     safe_text = (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     text_x = 14
     text_y = height / 2 + 4
-    max_text_width = max(40, width - 24)
+    max_text_width = max(60, width - 24)
     estimated_text_width = len(text or "") * 12
     length_attrs = ""
     if estimated_text_width > max_text_width:
-        length_attrs = f' textLength="{max_text_width}" lengthAdjust="spacingAndGlyphs"'
+        length_attrs = f' textLength="{max_text_width}" lengthAdjust="spacing"'
     return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
@@ -358,7 +358,7 @@ def generate_markdown(projects_data, base_dir):
                 f.write(generate_svg_card(e))
             
             e["svg_asset"] = f"assets/{svg_filename}"
-            title_width = min(260, max(80, int(8 * len(e["name"]) + 22)))
+            title_width = min(360, max(110, int(10 * len(e["name"]) + 40)))
             title_svg = generate_title_badge_svg(e["name"], accent, width=title_width, height=36)
             title_hash = hashlib.sha1(title_svg.encode("utf-8")).hexdigest()[:8]
             title_filename = f"title_{e['repo_path'].replace('/', '_')}_{category_key}_{title_hash}.svg"
