@@ -6,28 +6,304 @@
       "description": "Local and cloud LLM runtimes, inference servers, open-source model launchers",
       "repos": [
         {
-          "name": "ollama",
-          "url_path": "ollama/ollama",
-          "html_url": "https://github.com/ollama/ollama",
-          "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
-        },
-        {
-          "name": "llama.cpp",
-          "url_path": "ggerganov/llama.cpp",
-          "html_url": "https://github.com/ggerganov/llama.cpp",
-          "description": "LLM inference in C/C++"
-        },
-        {
           "name": "vllm",
           "url_path": "vllm-project/vllm",
           "html_url": "https://github.com/vllm-project/vllm",
           "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
         },
         {
-          "name": "DeepSeek-V3",
-          "url_path": "deepseek-ai/DeepSeek-V3",
-          "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-          "description": "No description provided"
+          "name": "adk-python",
+          "url_path": "google/adk-python",
+          "html_url": "https://github.com/google/adk-python",
+          "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+        },
+        {
+          "name": "sglang",
+          "url_path": "sgl-project/sglang",
+          "html_url": "https://github.com/sgl-project/sglang",
+          "description": "SGLang is a high-performance serving framework for large language models and multimodal models."
+        },
+        {
+          "name": "FastGPT",
+          "url_path": "labring/FastGPT",
+          "html_url": "https://github.com/labring/FastGPT",
+          "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letti..."
+        },
+        {
+          "name": "adk-go",
+          "url_path": "google/adk-go",
+          "html_url": "https://github.com/google/adk-go",
+          "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+        },
+        {
+          "name": "KrillinAI",
+          "url_path": "krillinai/KrillinAI",
+          "html_url": "https://github.com/krillinai/KrillinAI",
+          "description": "Video translation and dubbing tool powered by LLMs. The video translator offers 100 language translations and one-click full-process deployment. The video translation output is optimized for platforms..."
+        },
+        {
+          "name": "mlc-llm",
+          "url_path": "mlc-ai/mlc-llm",
+          "html_url": "https://github.com/mlc-ai/mlc-llm",
+          "description": "Universal LLM Deployment Engine with ML Compilation"
+        },
+        {
+          "name": "osaurus",
+          "url_path": "osaurus-ai/osaurus",
+          "html_url": "https://github.com/osaurus-ai/osaurus",
+          "description": "AI edge infrastructure for macOS. Run local or cloud models, share tools across apps via MCP, and power AI workflows with a native, always-on runtime."
+        },
+        {
+          "name": "TensorRT-LLM",
+          "url_path": "NVIDIA/TensorRT-LLM",
+          "html_url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "description": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT ..."
+        },
+        {
+          "name": "nexa-sdk",
+          "url_path": "NexaAI/nexa-sdk",
+          "html_url": "https://github.com/NexaAI/nexa-sdk",
+          "description": "Run frontier LLMs and VLMs with day-0 model support across GPU, NPU, and CPU, with comprehensive runtime coverage for PC (Python/C++), mobile (Android & iOS), and Linux/IoT (Arm64 & x86 Docker). Suppo..."
+        },
+        {
+          "name": "oumi",
+          "url_path": "oumi-ai/oumi",
+          "html_url": "https://github.com/oumi-ai/oumi",
+          "description": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!"
+        },
+        {
+          "name": "litgpt",
+          "url_path": "Lightning-AI/litgpt",
+          "html_url": "https://github.com/Lightning-AI/litgpt",
+          "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale."
+        },
+        {
+          "name": "ray",
+          "url_path": "ray-project/ray",
+          "html_url": "https://github.com/ray-project/ray",
+          "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+        },
+        {
+          "name": "promptflow",
+          "url_path": "microsoft/promptflow",
+          "html_url": "https://github.com/microsoft/promptflow",
+          "description": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring."
+        },
+        {
+          "name": "AutoGrad-Engine",
+          "url_path": "milanm/AutoGrad-Engine",
+          "html_url": "https://github.com/milanm/AutoGrad-Engine",
+          "description": "A complete GPT language model (training and inference) in ~600 lines of pure C#, zero dependencies"
+        },
+        {
+          "name": "PowerInfer",
+          "url_path": "Tiiny-AI/PowerInfer",
+          "html_url": "https://github.com/Tiiny-AI/PowerInfer",
+          "description": "High-speed Large Language Model Serving for Local Deployment"
+        },
+        {
+          "name": "ii-agent",
+          "url_path": "Intelligent-Internet/ii-agent",
+          "html_url": "https://github.com/Intelligent-Internet/ii-agent",
+          "description": "II-Agent: a new open-source framework to build and deploy intelligent agents"
+        },
+        {
+          "name": "julep",
+          "url_path": "julep-ai/julep",
+          "html_url": "https://github.com/julep-ai/julep",
+          "description": "Deploy serverless AI workflows at scale. Firebase for AI agents"
+        },
+        {
+          "name": "inference",
+          "url_path": "xorbitsai/inference",
+          "html_url": "https://github.com/xorbitsai/inference",
+          "description": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready..."
+        },
+        {
+          "name": "unstract",
+          "url_path": "Zipstack/unstract",
+          "html_url": "https://github.com/Zipstack/unstract",
+          "description": "LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows"
+        },
+        {
+          "name": "lmdeploy",
+          "url_path": "InternLM/lmdeploy",
+          "html_url": "https://github.com/InternLM/lmdeploy",
+          "description": "LMDeploy is a toolkit for compressing, deploying, and serving LLMs."
+        },
+        {
+          "name": "LLM-Engineers-Handbook",
+          "url_path": "PacktPublishing/LLM-Engineers-Handbook",
+          "html_url": "https://github.com/PacktPublishing/LLM-Engineers-Handbook",
+          "description": "The LLM's practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices"
+        },
+        {
+          "name": "parallax",
+          "url_path": "GradientHQ/parallax",
+          "html_url": "https://github.com/GradientHQ/parallax",
+          "description": "Parallax is a distributed model serving framework that lets you build your own AI cluster anywhere"
+        },
+        {
+          "name": "OM1",
+          "url_path": "OpenMind/OM1",
+          "html_url": "https://github.com/OpenMind/OM1",
+          "description": "Modular AI runtime for robots"
+        },
+        {
+          "name": "TileRT",
+          "url_path": "tile-ai/TileRT",
+          "html_url": "https://github.com/tile-ai/TileRT",
+          "description": "Tile-Based Runtime for Ultra-Low-Latency LLM Inference"
+        },
+        {
+          "name": "vllm-mlx",
+          "url_path": "waybarrios/vllm-mlx",
+          "html_url": "https://github.com/waybarrios/vllm-mlx",
+          "description": "OpenAI and Anthropic compatible server for Apple Silicon. Run LLMs and vision-language models (Llama, Qwen-VL, LLaVA) with continuous batching, MCP tool calling, and multimodal support. Native MLX bac..."
+        },
+        {
+          "name": "sre",
+          "url_path": "SmythOS/sre",
+          "html_url": "https://github.com/SmythOS/sre",
+          "description": "The SmythOS Runtime Environment (SRE) is an open-source, cloud-native runtime for agentic AI. Secure, modular, and production-ready, it lets developers build, run, and manage intelligent agents across..."
+        },
+        {
+          "name": "llm-compressor",
+          "url_path": "vllm-project/llm-compressor",
+          "html_url": "https://github.com/vllm-project/llm-compressor",
+          "description": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM"
+        },
+        {
+          "name": "ramalama",
+          "url_path": "containers/ramalama",
+          "html_url": "https://github.com/containers/ramalama",
+          "description": "RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of con..."
+        },
+        {
+          "name": "botpress",
+          "url_path": "botpress/botpress",
+          "html_url": "https://github.com/botpress/botpress",
+          "description": "The open-source hub to build & deploy GPT/LLM Agents ⚡️"
+        },
+        {
+          "name": "adk-java",
+          "url_path": "google/adk-java",
+          "html_url": "https://github.com/google/adk-java",
+          "description": "An open-source, code-first Java toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+        },
+        {
+          "name": "metaflow",
+          "url_path": "Netflix/metaflow",
+          "html_url": "https://github.com/Netflix/metaflow",
+          "description": "Build, Manage and Deploy AI/ML Systems"
+        },
+        {
+          "name": "adk-js",
+          "url_path": "google/adk-js",
+          "html_url": "https://github.com/google/adk-js",
+          "description": "An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+        },
+        {
+          "name": "notte",
+          "url_path": "nottelabs/notte",
+          "html_url": "https://github.com/nottelabs/notte",
+          "description": "🌸 Best framework to build web agents, and deploy serverless web automation functions on reliable browser infra."
+        },
+        {
+          "name": "LightLLM",
+          "url_path": "ModelTC/LightLLM",
+          "html_url": "https://github.com/ModelTC/LightLLM",
+          "description": "LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance."
+        },
+        {
+          "name": "claude-code-skill-factory",
+          "url_path": "alirezarezvani/claude-code-skill-factory",
+          "html_url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+          "description": "Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate stru..."
+        },
+        {
+          "name": "xDiT",
+          "url_path": "xdit-project/xDiT",
+          "html_url": "https://github.com/xdit-project/xDiT",
+          "description": "xDiT: A Scalable Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism"
+        },
+        {
+          "name": "llama_deploy",
+          "url_path": "run-llama/llama_deploy",
+          "html_url": "https://github.com/run-llama/llama_deploy",
+          "description": "Deploy your agentic worfklows to production"
+        },
+        {
+          "name": "Model-Optimizer",
+          "url_path": "NVIDIA/Model-Optimizer",
+          "html_url": "https://github.com/NVIDIA/Model-Optimizer",
+          "description": "A unified library of SOTA model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks lik..."
+        },
+        {
+          "name": "infinity",
+          "url_path": "michaelfeil/infinity",
+          "html_url": "https://github.com/michaelfeil/infinity",
+          "description": "Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali"
+        },
+        {
+          "name": "FastDeploy",
+          "url_path": "PaddlePaddle/FastDeploy",
+          "html_url": "https://github.com/PaddlePaddle/FastDeploy",
+          "description": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle"
+        },
+        {
+          "name": "LitterBox",
+          "url_path": "BlackSnufkin/LitterBox",
+          "html_url": "https://github.com/BlackSnufkin/LitterBox",
+          "description": "A secure sandbox environment for malware developers and red teamers to test payloads against detection mechanisms before deployment. Integrates with LLM agents via MCP for enhanced analysis capabiliti..."
+        },
+        {
+          "name": "compose-for-agents",
+          "url_path": "docker/compose-for-agents",
+          "html_url": "https://github.com/docker/compose-for-agents",
+          "description": "Build and run AI agents using Docker Compose. A collection of ready-to-use examples for orchestrating open-source LLMs, tools, and agent runtimes."
+        },
+        {
+          "name": "SpecForge",
+          "url_path": "sgl-project/SpecForge",
+          "html_url": "https://github.com/sgl-project/SpecForge",
+          "description": "Train speculative decoding models effortlessly and port them smoothly to SGLang serving."
+        },
+        {
+          "name": "xpander.ai",
+          "url_path": "xpander-ai/xpander.ai",
+          "html_url": "https://github.com/xpander-ai/xpander.ai",
+          "description": "xpander.ai is the runtime and control plane to build, run, and ship reliable AI agents fast and anywhere"
+        },
+        {
+          "name": "langserve",
+          "url_path": "langchain-ai/langserve",
+          "html_url": "https://github.com/langchain-ai/langserve",
+          "description": "LangServe 🦜️🏓"
+        },
+        {
+          "name": "TransformerEngine",
+          "url_path": "NVIDIA/TransformerEngine",
+          "html_url": "https://github.com/NVIDIA/TransformerEngine",
+          "description": "A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point (FP8 and FP4) precision on Hopper, Ada and Blackwell GPUs, to provide better performance wi..."
+        },
+        {
+          "name": "qwen600",
+          "url_path": "yassa9/qwen600",
+          "html_url": "https://github.com/yassa9/qwen600",
+          "description": "Static suckless single batch CUDA-only qwen3-0.6B mini inference engine"
+        },
+        {
+          "name": "n8n-install",
+          "url_path": "kossakovsky/n8n-install",
+          "html_url": "https://github.com/kossakovsky/n8n-install",
+          "description": "🚀 Self-hosted AI automation platform. Deploy n8n, Ollama, Flowise, RAG, Supabase & 30+ tools with one command. Auto HTTPS. Free Zapier/Make alternative."
+        },
+        {
+          "name": "LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents",
+          "url_path": "Haohao-end/LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents",
+          "html_url": "https://github.com/Haohao-end/LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents",
+          "description": "AI Agent Development Platform - Supports multiple models (OpenAI/DeepSeek/Wenxin/Tongyi), knowledge base management, workflow automation, and enterprise-grade security. Built with Flask + Vue3 + LangC..."
         }
       ]
     },
@@ -37,28 +313,304 @@
       "description": "Autonomous agents, multi-agent orchestration, browser and tool integration",
       "repos": [
         {
-          "name": "openclaw",
-          "url_path": "openclaw/openclaw",
-          "html_url": "https://github.com/openclaw/openclaw",
-          "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+          "name": "zeroclaw",
+          "url_path": "zeroclaw-labs/zeroclaw",
+          "html_url": "https://github.com/zeroclaw-labs/zeroclaw",
+          "description": "Fast, small, and fully autonomous AI assistant infrastructure — deploy anywhere, swap anything 🦀"
         },
         {
-          "name": "AutoGPT",
-          "url_path": "Significant-Gravitas/AutoGPT",
-          "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
-          "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+          "name": "agent-browser",
+          "url_path": "vercel-labs/agent-browser",
+          "html_url": "https://github.com/vercel-labs/agent-browser",
+          "description": "Browser automation CLI for AI agents"
+        },
+        {
+          "name": "Open-AutoGLM",
+          "url_path": "zai-org/Open-AutoGLM",
+          "html_url": "https://github.com/zai-org/Open-AutoGLM",
+          "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone"
+        },
+        {
+          "name": "ralph",
+          "url_path": "snarktank/ralph",
+          "html_url": "https://github.com/snarktank/ralph",
+          "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. "
+        },
+        {
+          "name": "oh-my-claudecode",
+          "url_path": "Yeachan-Heo/oh-my-claudecode",
+          "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+          "description": "Teams-first Multi-agent orchestration for Claude Code"
+        },
+        {
+          "name": "agents",
+          "url_path": "wshobson/agents",
+          "html_url": "https://github.com/wshobson/agents",
+          "description": "Intelligent automation and multi-agent orchestration for Claude Code"
+        },
+        {
+          "name": "dexter",
+          "url_path": "virattt/dexter",
+          "html_url": "https://github.com/virattt/dexter",
+          "description": "An autonomous agent for deep financial research"
+        },
+        {
+          "name": "agent-orchestrator",
+          "url_path": "ComposioHQ/agent-orchestrator",
+          "html_url": "https://github.com/ComposioHQ/agent-orchestrator",
+          "description": " Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews."
+        },
+        {
+          "name": "langchain",
+          "url_path": "langchain-ai/langchain",
+          "html_url": "https://github.com/langchain-ai/langchain",
+          "description": "The agent engineering platform"
+        },
+        {
+          "name": "cline",
+          "url_path": "cline/cline",
+          "html_url": "https://github.com/cline/cline",
+          "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way."
+        },
+        {
+          "name": "ruflo",
+          "url_path": "ruvnet/ruflo",
+          "html_url": "https://github.com/ruvnet/ruflo",
+          "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade archite..."
+        },
+        {
+          "name": "symphony",
+          "url_path": "openai/symphony",
+          "html_url": "https://github.com/openai/symphony",
+          "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents."
+        },
+        {
+          "name": "agenticSeek",
+          "url_path": "Fosowl/agenticSeek",
+          "html_url": "https://github.com/Fosowl/agenticSeek",
+          "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin9938..."
+        },
+        {
+          "name": "MetaGPT",
+          "url_path": "FoundationAgents/MetaGPT",
+          "html_url": "https://github.com/FoundationAgents/MetaGPT",
+          "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming"
+        },
+        {
+          "name": "cherry-studio",
+          "url_path": "CherryHQ/cherry-studio",
+          "html_url": "https://github.com/CherryHQ/cherry-studio",
+          "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
+        },
+        {
+          "name": "autogen",
+          "url_path": "microsoft/autogen",
+          "html_url": "https://github.com/microsoft/autogen",
+          "description": "A programming framework for agentic AI"
+        },
+        {
+          "name": "WeKnora",
+          "url_path": "Tencent/WeKnora",
+          "html_url": "https://github.com/Tencent/WeKnora",
+          "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm."
+        },
+        {
+          "name": "astron-agent",
+          "url_path": "iflytek/astron-agent",
+          "html_url": "https://github.com/iflytek/astron-agent",
+          "description": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents."
+        },
+        {
+          "name": "12-factor-agents",
+          "url_path": "humanlayer/12-factor-agents",
+          "html_url": "https://github.com/humanlayer/12-factor-agents",
+          "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?"
+        },
+        {
+          "name": "openai-agents-python",
+          "url_path": "openai/openai-agents-python",
+          "html_url": "https://github.com/openai/openai-agents-python",
+          "description": "A lightweight, powerful framework for multi-agent workflows"
         },
         {
           "name": "crewAI",
-          "url_path": "joaomdmoura/crewAI",
-          "html_url": "https://github.com/joaomdmoura/crewAI",
+          "url_path": "crewAIInc/crewAI",
+          "html_url": "https://github.com/crewAIInc/crewAI",
           "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
         },
         {
-          "name": "browser-use",
-          "url_path": "browser-use/browser-use",
-          "html_url": "https://github.com/browser-use/browser-use",
-          "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
+          "name": "ralphy",
+          "url_path": "michaelshimeles/ralphy",
+          "html_url": "https://github.com/michaelshimeles/ralphy",
+          "description": "My Ralph Wiggum setup, an autonomous bash script that runs Claude Code, Codex, OpenCode, Cursor agent, Qwen & Droid in a loop until your PRD is complete."
+        },
+        {
+          "name": "openclaw-mission-control",
+          "url_path": "abhi1693/openclaw-mission-control",
+          "html_url": "https://github.com/abhi1693/openclaw-mission-control",
+          "description": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway."
+        },
+        {
+          "name": "edict",
+          "url_path": "cft0808/edict",
+          "html_url": "https://github.com/cft0808/edict",
+          "description": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails"
+        },
+        {
+          "name": "mastra",
+          "url_path": "mastra-ai/mastra",
+          "html_url": "https://github.com/mastra-ai/mastra",
+          "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack."
+        },
+        {
+          "name": "mission-control",
+          "url_path": "crshdn/mission-control",
+          "html_url": "https://github.com/crshdn/mission-control",
+          "description": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway."
+        },
+        {
+          "name": "Product-Manager-Skills",
+          "url_path": "deanpeters/Product-Manager-Skills",
+          "html_url": "https://github.com/deanpeters/Product-Manager-Skills",
+          "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents."
+        },
+        {
+          "name": "thepopebot",
+          "url_path": "stephengpope/thepopebot",
+          "html_url": "https://github.com/stephengpope/thepopebot",
+          "description": "The Pope Bot is an autonomous AI agent that you can configure and build to do just about anything you want, all day, everyday, 24/7."
+        },
+        {
+          "name": "vibium",
+          "url_path": "VibiumDev/vibium",
+          "html_url": "https://github.com/VibiumDev/vibium",
+          "description": "Browser automation for AI agents and humans"
+        },
+        {
+          "name": "hexstrike-ai",
+          "url_path": "0x4m4/hexstrike-ai",
+          "html_url": "https://github.com/0x4m4/hexstrike-ai",
+          "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug boun..."
+        },
+        {
+          "name": "eliza",
+          "url_path": "elizaOS/eliza",
+          "html_url": "https://github.com/elizaOS/eliza",
+          "description": "Autonomous agents for everyone"
+        },
+        {
+          "name": "openakita",
+          "url_path": "openakita/openakita",
+          "html_url": "https://github.com/openakita/openakita",
+          "description": "An open-source AI assistant framework with skills and agent architecture"
+        },
+        {
+          "name": "RagaAI-Catalyst",
+          "url_path": "raga-ai-hub/RagaAI-Catalyst",
+          "html_url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+          "description": "Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging multi-agentic system, self-hosted dashboard and advanced anal..."
+        },
+        {
+          "name": "nanobrowser",
+          "url_path": "nanobrowser/nanobrowser",
+          "html_url": "https://github.com/nanobrowser/nanobrowser",
+          "description": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator."
+        },
+        {
+          "name": "mcp-use",
+          "url_path": "mcp-use/mcp-use",
+          "html_url": "https://github.com/mcp-use/mcp-use",
+          "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents."
+        },
+        {
+          "name": "langgraph",
+          "url_path": "langchain-ai/langgraph",
+          "html_url": "https://github.com/langchain-ai/langgraph",
+          "description": "Build resilient language agents as graphs."
+        },
+        {
+          "name": "multi-agent-shogun",
+          "url_path": "yohey-w/multi-agent-shogun",
+          "html_url": "https://github.com/yohey-w/multi-agent-shogun",
+          "description": "Samurai-inspired multi-agent system for Claude Code. Orchestrate parallel AI tasks via tmux with shogun → karo → ashigaru hierarchy."
+        },
+        {
+          "name": "DeepAnalyze",
+          "url_path": "ruc-datalab/DeepAnalyze",
+          "html_url": "https://github.com/ruc-datalab/DeepAnalyze",
+          "description": "DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！"
+        },
+        {
+          "name": "agent-zero",
+          "url_path": "agent0ai/agent-zero",
+          "html_url": "https://github.com/agent0ai/agent-zero",
+          "description": "Agent Zero AI framework"
+        },
+        {
+          "name": "gpt-researcher",
+          "url_path": "assafelovic/gpt-researcher",
+          "html_url": "https://github.com/assafelovic/gpt-researcher",
+          "description": "An autonomous agent that conducts deep research on any data using any LLM providers"
+        },
+        {
+          "name": "agent-framework",
+          "url_path": "microsoft/agent-framework",
+          "html_url": "https://github.com/microsoft/agent-framework",
+          "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+        },
+        {
+          "name": "pydantic-ai",
+          "url_path": "pydantic/pydantic-ai",
+          "html_url": "https://github.com/pydantic/pydantic-ai",
+          "description": "GenAI Agent Framework, the Pydantic way"
+        },
+        {
+          "name": "MAHORAGA",
+          "url_path": "ygwyg/MAHORAGA",
+          "html_url": "https://github.com/ygwyg/MAHORAGA",
+          "description": "autonomous trading agent powered by social sentiment analysis and ai that learns, grows, and adapts"
+        },
+        {
+          "name": "parlant",
+          "url_path": "emcie-co/parlant",
+          "html_url": "https://github.com/emcie-co/parlant",
+          "description": "The conversational control layer for customer-facing AI agents - Parlant is a context-engineering framework optimized for controlling customer interactions."
+        },
+        {
+          "name": "overstory",
+          "url_path": "jayminwest/overstory",
+          "html_url": "https://github.com/jayminwest/overstory",
+          "description": "Multi-agent orchestration for AI coding agents — pluggable runtime adapters for Claude Code, Pi, and more"
+        },
+        {
+          "name": "MemMachine",
+          "url_path": "MemMachine/MemMachine",
+          "html_url": "https://github.com/MemMachine/MemMachine",
+          "description": "Universal memory layer for AI Agents. It provides scalable, extensible, and interoperable memory storage and retrieval to streamline AI agent state management for next-generation autonomous systems."
+        },
+        {
+          "name": "redamon",
+          "url_path": "samugit83/redamon",
+          "html_url": "https://github.com/samugit83/redamon",
+          "description": "An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention."
+        },
+        {
+          "name": "pentagi",
+          "url_path": "vxcontrol/pentagi",
+          "html_url": "https://github.com/vxcontrol/pentagi",
+          "description": "✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks"
+        },
+        {
+          "name": "khoj",
+          "url_path": "khoj-ai/khoj",
+          "html_url": "https://github.com/khoj-ai/khoj",
+          "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI ..."
+        },
+        {
+          "name": "voltagent",
+          "url_path": "VoltAgent/voltagent",
+          "html_url": "https://github.com/VoltAgent/voltagent",
+          "description": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework"
         }
       ]
     },
@@ -68,22 +620,304 @@
       "description": "AI pair programming in terminal and IDE, code automation, CLI tools",
       "repos": [
         {
-          "name": "aider",
-          "url_path": "paul-gauthier/aider",
-          "html_url": "https://github.com/paul-gauthier/aider",
-          "description": "aider is AI pair programming in your terminal"
+          "name": "cmux",
+          "url_path": "manaflow-ai/cmux",
+          "html_url": "https://github.com/manaflow-ai/cmux",
+          "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents"
         },
         {
-          "name": "open-interpreter",
-          "url_path": "OpenInterpreter/open-interpreter",
-          "html_url": "https://github.com/OpenInterpreter/open-interpreter",
-          "description": "A natural language interface for computers"
+          "name": "cc-switch",
+          "url_path": "farion1231/cc-switch",
+          "html_url": "https://github.com/farion1231/cc-switch",
+          "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI."
         },
         {
-          "name": "claude-code",
-          "url_path": "anthropics/claude-code",
-          "html_url": "https://github.com/anthropics/claude-code",
-          "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows ..."
+          "name": "peon-ping",
+          "url_path": "PeonPing/peon-ping",
+          "html_url": "https://github.com/PeonPing/peon-ping",
+          "description": "Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent. Stop babysitting your terminal. Employ a Peon today."
+        },
+        {
+          "name": "Kaku",
+          "url_path": "tw93/Kaku",
+          "html_url": "https://github.com/tw93/Kaku",
+          "description": "🎃 A fast, out-of-the-box terminal built for AI coding."
+        },
+        {
+          "name": "superset",
+          "url_path": "superset-sh/superset",
+          "html_url": "https://github.com/superset-sh/superset",
+          "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine"
+        },
+        {
+          "name": "oh-my-pi",
+          "url_path": "can1357/oh-my-pi",
+          "html_url": "https://github.com/can1357/oh-my-pi",
+          "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more"
+        },
+        {
+          "name": "Claude-Code-Usage-Monitor",
+          "url_path": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+          "html_url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+          "description": "Real-time Claude Code usage monitor with predictions and warnings"
+        },
+        {
+          "name": "kubectl-ai",
+          "url_path": "GoogleCloudPlatform/kubectl-ai",
+          "html_url": "https://github.com/GoogleCloudPlatform/kubectl-ai",
+          "description": "AI powered Kubernetes Assistant"
+        },
+        {
+          "name": "claude-squad",
+          "url_path": "smtg-ai/claude-squad",
+          "html_url": "https://github.com/smtg-ai/claude-squad",
+          "description": "Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp."
+        },
+        {
+          "name": "plandex",
+          "url_path": "plandex-ai/plandex",
+          "html_url": "https://github.com/plandex-ai/plandex",
+          "description": "Open source AI coding agent. Designed for large projects and real world tasks."
+        },
+        {
+          "name": "axon",
+          "url_path": "harshkedia177/axon",
+          "html_url": "https://github.com/harshkedia177/axon",
+          "description": "Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers."
+        },
+        {
+          "name": "Warp",
+          "url_path": "warpdotdev/Warp",
+          "html_url": "https://github.com/warpdotdev/Warp",
+          "description": "Warp is the agentic development environment, built for coding with multiple AI agents."
+        },
+        {
+          "name": "agent-deck",
+          "url_path": "asheshgoplani/agent-deck",
+          "html_url": "https://github.com/asheshgoplani/agent-deck",
+          "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more."
+        },
+        {
+          "name": "emdash",
+          "url_path": "generalaction/emdash",
+          "html_url": "https://github.com/generalaction/emdash",
+          "description": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider."
+        },
+        {
+          "name": "cc-connect",
+          "url_path": "chenhg5/cc-connect",
+          "html_url": "https://github.com/chenhg5/cc-connect",
+          "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from..."
+        },
+        {
+          "name": "agtx",
+          "url_path": "fynnfluegge/agtx",
+          "html_url": "https://github.com/fynnfluegge/agtx",
+          "description": "Autonomous multi-session spec-driven AI coding orchestration in the terminal"
+        },
+        {
+          "name": "aichat",
+          "url_path": "sigoden/aichat",
+          "html_url": "https://github.com/sigoden/aichat",
+          "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more."
+        },
+        {
+          "name": "gemini-mcp-tool",
+          "url_path": "jamubc/gemini-mcp-tool",
+          "html_url": "https://github.com/jamubc/gemini-mcp-tool",
+          "description": "MCP server that enables AI assistants to interact with Google Gemini CLI, leveraging Gemini's massive token window for large file analysis and codebase understanding"
+        },
+        {
+          "name": "cc-switch-cli",
+          "url_path": "SaladDay/cc-switch-cli",
+          "html_url": "https://github.com/SaladDay/cc-switch-cli",
+          "description": "⭐️ A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI."
+        },
+        {
+          "name": "WebCode",
+          "url_path": "shuyu-labs/WebCode",
+          "html_url": "https://github.com/shuyu-labs/WebCode",
+          "description": "WebCode is a browser-based AI coding platform that lets you remotely run CLI assistants like Claude Code and Codex. Code anywhere with just a web browser. We’re also adding an office-assistant mode fo..."
+        },
+        {
+          "name": "nanocoder",
+          "url_path": "Nano-Collective/nanocoder",
+          "html_url": "https://github.com/Nano-Collective/nanocoder",
+          "description": "A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒"
+        },
+        {
+          "name": "bridle",
+          "url_path": "neiii/bridle",
+          "html_url": "https://github.com/neiii/bridle",
+          "description": "TUI / CLI config manager for agentic harnesses (Amp, Claude Code, Opencode, Goose, Copilot CLI, Crush, Droid)"
+        },
+        {
+          "name": "ai-in-the-terminal",
+          "url_path": "theNetworkChuck/ai-in-the-terminal",
+          "html_url": "https://github.com/theNetworkChuck/ai-in-the-terminal",
+          "description": "Complete companion guide for NetworkChuck's 'AI in the Terminal' video - Gemini CLI, Claude Code, Codex, and opencode workflows"
+        },
+        {
+          "name": "OpenContext",
+          "url_path": "0xranx/OpenContext",
+          "html_url": "https://github.com/0xranx/OpenContext",
+          "description": "A personal context store for AI agents and assistants—reuse your existing coding agent CLI (Codex/Claude/OpenCode) with built‑in Skills/tools and a desktop GUI to capture, search, and reuse project kn..."
+        },
+        {
+          "name": "claude-code.nvim",
+          "url_path": "greggh/claude-code.nvim",
+          "html_url": "https://github.com/greggh/claude-code.nvim",
+          "description": "Seamless integration between Claude Code AI assistant and Neovim"
+        },
+        {
+          "name": "CodeGraphContext",
+          "url_path": "CodeGraphContext/CodeGraphContext",
+          "html_url": "https://github.com/CodeGraphContext/CodeGraphContext",
+          "description": "An MCP server plus a CLI tool that indexes local code into a graph database to provide context to AI assistants."
+        },
+        {
+          "name": "Awesome-independent-tools",
+          "url_path": "yaolifeng0629/Awesome-independent-tools",
+          "html_url": "https://github.com/yaolifeng0629/Awesome-independent-tools",
+          "description": "收录独立开发、AI出海领域最新、最实用的工具与资源（Build Faster with Better Tools）"
+        },
+        {
+          "name": "awesome-ai-devtools",
+          "url_path": "jamesmurdza/awesome-ai-devtools",
+          "html_url": "https://github.com/jamesmurdza/awesome-ai-devtools",
+          "description": "Curated list of AI-powered developer tools."
+        },
+        {
+          "name": "ai-agent-tools",
+          "url_path": "cporter202/ai-agent-tools",
+          "html_url": "https://github.com/cporter202/ai-agent-tools",
+          "description": "A curated collection of AI tools, utilities, and resources for developers and creators"
+        },
+        {
+          "name": "refact",
+          "url_path": "smallcloudai/refact",
+          "html_url": "https://github.com/smallcloudai/refact",
+          "description": "AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result."
+        },
+        {
+          "name": "indie-hacker-tools-plus",
+          "url_path": "XiaomingX/indie-hacker-tools-plus",
+          "html_url": "https://github.com/XiaomingX/indie-hacker-tools-plus",
+          "description": "为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools wid..."
+        },
+        {
+          "name": "free-ai-resources-x",
+          "url_path": "CelaDaniel/free-ai-resources-x",
+          "html_url": "https://github.com/CelaDaniel/free-ai-resources-x",
+          "description": "🌟 A curated collection of free, high quality AI tools 🤖, APIs 🔗, datasets 📊, and learning resources 📚 covering machine learning 🧠, deep learning 🧩, generative AI 🎨, NLP 💬, and data science 📈. Designed..."
+        },
+        {
+          "name": "FuzzyAI",
+          "url_path": "cyberark/FuzzyAI",
+          "html_url": "https://github.com/cyberark/FuzzyAI",
+          "description": "A powerful tool for automated LLM fuzzing. It is designed to help developers and security researchers identify and mitigate potential jailbreaks in their LLM APIs."
+        },
+        {
+          "name": "llxprt-code",
+          "url_path": "vybestack/llxprt-code",
+          "html_url": "https://github.com/vybestack/llxprt-code",
+          "description": "An open-source multi-provider AI assisted CLI development tool. Use whatever LLM you want to code in your terminal."
+        },
+        {
+          "name": "opencode.nvim",
+          "url_path": "sudo-tee/opencode.nvim",
+          "html_url": "https://github.com/sudo-tee/opencode.nvim",
+          "description": "neovim frontend for opencode - a terminal-based AI coding agent"
+        },
+        {
+          "name": "yn",
+          "url_path": "purocean/yn",
+          "html_url": "https://github.com/purocean/yn",
+          "description": "A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macr..."
+        },
+        {
+          "name": "shai",
+          "url_path": "ovh/shai",
+          "html_url": "https://github.com/ovh/shai",
+          "description": "shai is a coding agent, your pair programming buddy that lives in the terminal. Written in rust with love <3"
+        },
+        {
+          "name": "VTCode",
+          "url_path": "vinhnx/VTCode",
+          "html_url": "https://github.com/vinhnx/VTCode",
+          "description": "VT Code - Semantic AI coding agent"
+        },
+        {
+          "name": "iam-policy-autopilot",
+          "url_path": "awslabs/iam-policy-autopilot",
+          "html_url": "https://github.com/awslabs/iam-policy-autopilot",
+          "description": "IAM Policy Autopilot is an open source static code analysis tool that helps you quickly create baseline AWS IAM policies that you can refine as your application evolves. This tool is available as a co..."
+        },
+        {
+          "name": "mcp-client-for-ollama",
+          "url_path": "jonigl/mcp-client-for-ollama",
+          "html_url": "https://github.com/jonigl/mcp-client-for-ollama",
+          "description": "A text-based user interface (TUI) client for interacting with MCP servers using Ollama. Features include agent mode, multi-server, model switching, streaming responses, tool management, human-in-the-l..."
+        },
+        {
+          "name": "vexor",
+          "url_path": "scarletkc/vexor",
+          "html_url": "https://github.com/scarletkc/vexor",
+          "description": "A semantic search engine for files and code."
+        },
+        {
+          "name": "mcp-clickhouse",
+          "url_path": "ClickHouse/mcp-clickhouse",
+          "html_url": "https://github.com/ClickHouse/mcp-clickhouse",
+          "description": "Connect ClickHouse to your AI assistants."
+        },
+        {
+          "name": "awesome-ai-coding-techniques",
+          "url_path": "inmve/awesome-ai-coding-techniques",
+          "html_url": "https://github.com/inmve/awesome-ai-coding-techniques",
+          "description": "Practical techniques for coding with ai assistants (Claude Code, Codex CLI, Cursor, GitHub Copilot, etc). Available in: English • Español • Deutsch • Français • 日本語"
+        },
+        {
+          "name": "probe",
+          "url_path": "probelabs/probe",
+          "html_url": "https://github.com/probelabs/probe",
+          "description": "AI-friendly semantic code search engine for large codebases. Combines ripgrep speed with tree-sitter AST parsing. Powers AI coding assistants with precise, context-aware code understanding."
+        },
+        {
+          "name": "CoexistAI",
+          "url_path": "SPThole/CoexistAI",
+          "html_url": "https://github.com/SPThole/CoexistAI",
+          "description": "CoexistAI is a modular, developer-friendly research assistant framework . It enables you to build, search, summarize, and automate research workflows using LLMs, web search, Reddit, YouTube, and mappi..."
+        },
+        {
+          "name": "responsible-ai-toolbox",
+          "url_path": "microsoft/responsible-ai-toolbox",
+          "html_url": "https://github.com/microsoft/responsible-ai-toolbox",
+          "description": "Responsible AI Toolbox is a suite of tools providing model and data exploration and assessment user interfaces and libraries that enable a better understanding of AI systems. These interfaces and libr..."
+        },
+        {
+          "name": "tfmcp",
+          "url_path": "nwiizo/tfmcp",
+          "html_url": "https://github.com/nwiizo/tfmcp",
+          "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing p..."
+        },
+        {
+          "name": "generator",
+          "url_path": "context-hub/generator",
+          "html_url": "https://github.com/context-hub/generator",
+          "description": "CTX: a tool that solves the context management gap when working with LLMs like ChatGPT or Claude. It helps developers organize and automatically collect information from their codebase into structured..."
+        },
+        {
+          "name": "china-dictatorship",
+          "url_path": "cirosantilli/china-dictatorship",
+          "html_url": "https://github.com/cirosantilli/china-dictatorship",
+          "description": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on ac..."
+        },
+        {
+          "name": "oli",
+          "url_path": "amrit110/oli",
+          "html_url": "https://github.com/amrit110/oli",
+          "description": "A simple, fast terminal based AI coding assistant"
         }
       ]
     },

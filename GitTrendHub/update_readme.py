@@ -35,6 +35,18 @@ def parse_stars(val):
     except:
         return 0
 
+def format_desc_fixed(desc, max_chars=180, line_len=60, lines=3):
+    if not desc:
+        desc = "No description provided"
+    text = desc.replace("\n", " ").strip()
+    if len(text) > max_chars:
+        text = text[: max_chars - 3].rstrip() + "..."
+    chunks = [text[i:i + line_len] for i in range(0, len(text), line_len)]
+    chunks = chunks[:lines]
+    if len(chunks) < lines:
+        chunks.extend(["&nbsp;"] * (lines - len(chunks)))
+    return "<br>".join(chunks)
+
 def fetch_repo_stats(repo_path, _api_errors=None):
     url = f"https://api.github.com/repos/{repo_path}"
     try:
@@ -244,9 +256,7 @@ def generate_markdown(projects_data, base_dir):
         enriched_repos.sort(key=lambda x: x["stars"], reverse=True)
         
         for e in enriched_repos:
-            desc_limited = e['description']
-            if len(desc_limited) > 160:
-                desc_limited = desc_limited[:157] + "..."
+            desc_limited = format_desc_fixed(e['description'], max_chars=180, line_len=60, lines=3)
             section_anchor = e["category_id"]
             card_html = f"""
 <table width="100%" cellpadding="0" cellspacing="0">
