@@ -1,10 +1,12 @@
 <div align="center">
   <img src="GitTrendHub/image4.png" alt="AI TrendHub Banner" width="400">
-</div>
+
 
 # AI TrendHub – The Pulse of Artificial Intelligence
 
 > 💡 **Specializing in AI:** This dashboard focuses exclusively on the rapidly evolving AI ecosystem, tracking the most impactful projects across engines, agents, and generative tools.
+
+</div>
 
 ---
 
@@ -26,9 +28,9 @@
 | 5 | [🧠 Research & Core Frameworks](#frameworks) | 70 | ML/NLP frameworks, agent platforms, research-grade core libraries |
 
 **Other Sections**
-- 6. [🤝 Community & Participation](#how-to-contribute) — How to contribute, PR guide, community
-- 7. [🌐 AI Resource Navigator](#ai-resource-navigator) — Curated links: trends, news, tool discovery
-- 8. [📝 Data Summary](#data-summary) — Data source and last generated timestamp
+- [🤝 Community & Participation](#how-to-contribute) — How to contribute, PR guide, community
+- [🌐 AI Resource Navigator](#ai-resource-navigator) — Curated links: trends, news, tool discovery
+- [📝 Data Summary](#data-summary) — Data source and last generated timestamp
 
 ---
 
